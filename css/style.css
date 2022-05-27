@@ -1,0 +1,23 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: Whitney SSm A,Whitney SSm B,Avenir,Segoe UI,Ubuntu,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+a{
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.page-content-wrapper{
+	min-width: auto;
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

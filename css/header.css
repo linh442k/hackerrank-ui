@@ -1,0 +1,260 @@
+.common-header {
+	position: relative;
+}
+
+.common-header-wrapper {
+	height: 60px;
+    background: #39424e;
+	display: block;
+}
+
+.common-header-container{
+	min-width: auto;
+	display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: space-between;
+	padding-right: 20px;
+    padding-left: 20px;
+	margin: 0 auto;
+	max-width: 1240px;
+	height: 100%;
+}
+
+.header-nav-links {
+	display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.header-nav-links li{
+	list-style: none;
+}
+
+.header-nav-link-item{
+	margin-right: 30px;
+}
+
+.header-nav-link-item.logo-wrap{
+	margin-left: 0px;
+	margin-right: 30px;
+}
+
+.header-logo-img {
+	margin-bottom: 0;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.header-nav-links .nav-link {
+	position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 60px;
+}
+
+/* .nav-link.active{
+	border-bottom: 5px solid #1ba94c;
+	color: #fff;
+} */
+
+.header-nav-buttons{
+	display: flex;
+    align-items: center;
+	float: right;
+	height: 40px;
+}
+
+.header-nav-buttons ul,.header-nav-buttons li,.header-nav-buttons>div{
+	height: 100%;
+}
+
+.header-nav-left{
+	float: none;
+	font-family: "OpenSans";
+	padding-right: 10px;
+}
+
+#search-box{
+	list-style: none;
+	font-family: "OpenSans";
+
+}
+
+.search-form{
+	position: relative;
+    width: 100px;
+    transition: all 300ms ease;
+	font-family: "OpenSans";
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.search-form.focus{
+	width: 200px;
+	height: 40px;
+	background: #0e141e;
+	font-family: "OpenSans";
+}
+
+.search-result>ul{
+	float: none;
+	list-style: none;
+}
+
+.search-input{
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 5px;
+	/* font-family: "OpenSans"; */
+	/* position: relative; */
+
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-input i{
+	color: #738f93;
+    font-size: 18px;
+}
+
+.search-form.focus .search-input i{
+	color: white;
+}
+
+#search-text{
+	box-sizing: border-box;
+    margin: 0;
+    padding: 7px 10px;
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    border: none;
+    background: none;
+    box-shadow: none;
+    
+    font-size: 15px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+#search-text::placeholder{
+	color: #738f93;
+}
+
+.header-nav-right{
+	display: flex;
+    margin-top: 0;
+    align-items: center;
+	float: none;
+	font-family: "OpenSans";
+}
+
+.header-nav-right-icon{
+	box-sizing: border-box;
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+	list-style: none;
+	font-family: "OpenSans";
+}
+
+.header-nav-right-icon-wrapper{
+	color: #b7c9cc;
+	font-family: "OpenSans";
+	cursor: pointer;
+}
+
+.header-nav-right-icon-wrapper>i{
+	font-size: 20px;
+	/* font-weight: bold; */
+}
+
+.header-nav-dropdown{
+	list-style: none;
+	font-family: "OpenSans";
+
+	position: relative;
+    margin-left: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.header-nav-dropdown-wrapper{
+	padding: 0;
+    height: auto;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+
+.header-nav-dropdown-link{
+	color: #b7c9cc;
+	cursor: pointer;
+
+	/* color: white; */
+}
+
+.header-nav-dropdown-link>img{
+	margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+	border-radius: 5px;
+}
+
+.header-nav-dropdown-link>.profile-username{
+	font-weight: bold;
+    font-size: 14px;
+	margin-right: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header-nav-dropdown-menu{
+	position: absolute;
+    top: 50px;
+    right: 0;
+    z-index: 10;
+    width: 200px;
+    background: white;
+    /* box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%); */
+	/* display: block; */
+	display: none;
+	left:auto;
+	float: right;
+    border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 0 0 5px 5px;
+    border-top: none;
+}
+
+.header-nav-dropdown-menu>ul{
+	float: none;
+	font-family: "Open Sans";
+}
+
+.header-nav-dropdown-menu-item{
+	list-style: none;
+	margin: 0 20px;
+    border-bottom: 1px solid #e7eeef;
+    line-height: 40px;
+}
+
+.header-nav-dropdown-menu-item>a{
+	display: block;
+    padding: 0 10px;
+    color: #0e141e;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: inherit;
+    cursor: pointer;
+}

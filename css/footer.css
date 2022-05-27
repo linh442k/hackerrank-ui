@@ -1,0 +1,33 @@
+.footer{
+	/* border-top: 1px solid #576871; */
+	border-top: 1px solid rgba(87,104,113, 0.2);
+
+	/* margin-top: 30px; */
+    padding: 15px 20px;
+    background: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-link-item{
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.footer-link-item>a{
+    color: #097bbf;
+	font-weight: 400;
+	font-family: "Open Sans";
+}
+
+.footer-link-item:after {
+    display: inline-block;
+    margin: 0 5px;
+    color: #b7c9cc;
+    content: "|";
+}
+
+.footer-link-item:last-child:after {
+    content: "";
+}
