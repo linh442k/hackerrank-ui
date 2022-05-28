@@ -106,11 +106,71 @@
 								</div>
 							</div>
 						</section>
+						<section class="challenges-list-right-panel">
+							<div class="challenges-list-right-panel-wrapper">
+								<div class="challenges-list-right-panel-outer-wrapper">
+									<div>
+										<section class="challenges-list-filter">
+
+											<div class="challenges-list-filter-group">
+												<div class="challenges-list-filter-group-title">
+													Status
+												</div>
+												<div class="challenges-list-filter-group-items">
+													<div>
+														<div class="challenges-list-filter-group-items-container">
+															<div class="challenges-list-filter-group-item">
+																<div class="challenges-list-filter-group-item-wrapper">
+																	<div>
+																		<label class="challenges-list-filter-group-item-label">
+																			<div class="challenges-list-filter-group-item-checkbox checked">
+																				<input type="checkbox" value="solved">
+																				<span class="custom-checkbox"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor">
+																						<path d="M9 18c-.3 0-.5-.1-.7-.3l-5-5c-.4-.4-.4-1 0-1.4s1-.4 1.4 0L9 15.6 19.3 5.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-11 11c-.2.2-.4.3-.7.3z"></path>
+																					</svg></span>
+																			</div>
+																			<div class="challenges-list-filter-group-item-content">
+																				Solved
+																			</div>
+
+																		</label>
+																	</div>
+																</div>
+															</div>
+															<div class="challenges-list-filter-group-item">
+																<div class="challenges-list-filter-group-item-wrapper">
+																	<div>
+																		<label class="challenges-list-filter-group-item-label">
+																			<div class="challenges-list-filter-group-item-checkbox">
+																				<input type="checkbox" value="solved">
+																				<span class="custom-checkbox"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor">
+																						<path d="M9 18c-.3 0-.5-.1-.7-.3l-5-5c-.4-.4-.4-1 0-1.4s1-.4 1.4 0L9 15.6 19.3 5.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-11 11c-.2.2-.4.3-.7.3z"></path>
+																					</svg></span>
+																			</div>
+																			<div class="challenges-list-filter-group-item-content">
+																				Unsolved
+																			</div>
+
+																		</label>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+									</div>
+
+						</section>
 					</div>
 				</div>
 			</div>
+			</section>
 		</div>
-		<?php require_once "../components/footer.php" ?>
+	</div>
+	</div>
+	</div>
+	<?php require_once "../components/footer.php" ?>
 	</div>
 	<script src="../../js/challenges.js"></script>
 </body>
