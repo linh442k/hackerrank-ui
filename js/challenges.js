@@ -8,8 +8,13 @@ var header_dropdown_link = document.getElementsByClassName(
 )[0];
 
 header_dropdown_link.onclick = () => {
-    header_dropdown_link.style.color = "white";
-    header_dropdown_menu.style.display = "block";
+	if(header_dropdown_menu.style.display !== "block"){
+		header_dropdown_link.style.color = "white";
+		header_dropdown_menu.style.display = "block";
+	}else{
+		header_dropdown_link.style.color = "#b7c9cc";
+        header_dropdown_menu.style.display = "none";
+	}
 };
 
 document.addEventListener("mouseup", function (e) {
