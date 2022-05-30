@@ -114,8 +114,8 @@
 										<div class="submissions-table-header-time">
 											<p>about 1 hour ago</p>
 										</div>
-										<div class="submissions-table-header-result submissions-table-header-result-wrong-answer">
-											<p>Wrong Answer <i class="fa fa-times" aria-hidden="true"></i> </p>
+										<div class="submissions-table-header-result submissions-table-header-result-accepted">
+											<p>Accepted <i class="fa fa-check" aria-hidden="true"></i> </p>
 										</div>
 										<div class="submissions-table-header-score">
 											<p>9.0</p>
@@ -140,8 +140,8 @@
 										<div class="submissions-table-header-time">
 											<p>about 1 hour ago</p>
 										</div>
-										<div class="submissions-table-header-result submissions-table-header-result-wrong-answer">
-											<p>Wrong Answer <i class="fa fa-times" aria-hidden="true"></i> </p>
+										<div class="submissions-table-header-result submissions-table-header-result-compilation-error">
+											<p>Compilation error </p>
 										</div>
 										<div class="submissions-table-header-score">
 											<p>9.0</p>
@@ -154,7 +154,7 @@
 									</div>
 								</div>
 							</div>
-							<div style="margin-top: 20px;"></div>
+							<div style="padding-top: 20px; border-top: 1px solid #c2c7d0 !important;"></div>
 						</div>
 					</div>
 				</section>

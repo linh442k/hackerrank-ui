@@ -236,7 +236,7 @@
 }
 
 .submission-table-item{
-	border-bottom: 1px solid #C2C7D0;
+	/* border-bottom: 1px solid #C2C7D0; */
 	padding: 10px 0;
 	border-top: none;
 	margin: 0;
@@ -266,6 +266,17 @@
 	color: #f65039;
 	position: relative;
     top: 1px;
+}
+
+.submissions-table-header-result-accepted i{
+	color: #2ec866;
+	position: relative;
+    top: 1px;
+}
+
+.submissions-table-header-result-compilation-error{
+	color: #f65039 !important;
+	font-weight: bold;
 }
 
 .submissions-table-header-button-view{
