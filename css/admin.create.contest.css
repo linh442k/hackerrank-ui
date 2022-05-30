@@ -1,0 +1,52 @@
+.admin-create-contest-page-title {
+    background: #fff;
+    border-bottom: 1px solid #e0e4e8;
+    font-family: "Open Sans";
+}
+
+.admin-create-contest-page-title > div {
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.admin-create-contest-page-title-content {
+    padding: 15px 0px !important;
+    font-size: 90%;
+    color: #979faf;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.admin-create-contest-page-content {
+    /* flex-grow: 1; */
+    /* background-color: #f3f7f7; */
+    height: 100%;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.admin-create-contest-container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

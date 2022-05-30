@@ -1,0 +1,271 @@
+.admin-create-challenge-page-title {
+    background: #fff;
+    border-bottom: 1px solid #e0e4e8;
+    font-family: "Open Sans";
+}
+
+.admin-create-challenge-page-title > div {
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.admin-create-challenge-page-title-content {
+    padding: 15px 0px !important;
+    font-size: 90%;
+    color: #979faf;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.admin-create-challenge-page-content {
+    /* flex-grow: 1; */
+    /* background-color: #f3f7f7; */
+    height: 100%;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.admin-create-challenge-container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+	margin-bottom: 100px;
+}
+
+.admin-create-challenge-page-header h1{
+	display: block;
+	width: 100%;
+	font-size: 2em;
+    font-weight: 100;
+	float: left;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.admin-create-challenge-page-inner-body p{
+	font-family: "OpenSans";
+	margin-top: 10px;
+    margin-bottom: 10px;
+	color: #979faf;
+    font-style: italic;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.admin-create-challenge-page-inner-body-form-element{
+	margin-left: -7.5px;
+    margin-right: -7.5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+}
+
+.admin-create-challenge-page-form-element-challenge-label{
+	line-height: 40px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    float: left;
+	width: 18.75%;
+	margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+
+	box-sizing: border-box;
+	display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+
+	font-size: 14px;
+}
+
+.admin-create-challenge-page-form-element-challenge-name-input{
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+
+	width: 75%;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.admin-create-challenge-page-form-element-challenge-name-input>input{
+	font-family: "Source Code Pro";
+
+	border: 1px solid #C2C7D0;
+    border-radius: 5px;
+    /* box-shadow: inset 0 1px 2px rgb(151 159 175 / 10%), inset 0 1px 15px rgb(151 159 175 / 5%); */
+    box-sizing: border-box;
+    color: #39424e;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 7px 10px;
+    transition: all 0.3s ease;
+	width: 75%;
+}
+
+.admin-create-challenge-page-form-element-challenge-name-input>input:focus{
+	border-color: #77B5E5;
+    border-color: rgba(70,145,246,0.7);
+    box-shadow: 0 0 5px rgba(70,145,246,0.5),inset 0 1px 2px rgba(151,159,175,0.2),inset 0 1px 15px rgba(151,159,175,0.05);
+    outline: 0;
+}
+
+.admin-create-challenge-page-form-element-challenge-description-input{
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+
+	width: 75%;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.admin-create-challenge-page-form-element-challenge-description-input>textarea{
+	width: 100%;
+	font-family: "Source Code Pro";
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+
+	border: 1px solid #C2C7D0;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgb(151 159 175 / 10%), inset 0 1px 15px rgb(151 159 175 / 5%);
+    color: #39424e;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 7px 10px;
+    transition: all 0.3s ease;
+}
+
+.admin-create-challenge-page-form-element-challenge-description-input>textarea:focus{
+	border-color: #77B5E5;
+    border-color: rgba(70,145,246,0.7);
+    box-shadow: 0 0 5px rgba(70,145,246,0.5),inset 0 1px 2px rgba(151,159,175,0.2),inset 0 1px 15px rgba(151,159,175,0.05);
+    outline: 0;
+}
+
+.description-input-help-hint{
+	transition: 0.3s all ease-in-out;
+	color: #979faf;
+    font-size: 90%;
+    font-weight: 600;
+    overflow: hidden;
+    position: relative;
+	font-family: "Open Sans";
+	float: right;
+
+}
+
+.statement-input-help-hint{
+	font-family: "Open Sans";
+	float: right;
+	font-weight: 600;
+	font-size: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.statement-input-help-hint i{
+	font-size: 18px;
+	padding-right: 8px;
+}
+
+.admin-create-challenge-sticky-bottom{
+	font-family: "Open Sans";
+	background: #FFF;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1040;
+	padding-bottom: 20px;
+}
+
+.admin-create-challenge-sticky-bottom-bar{
+	border-top: 1px solid #C2C7D0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+	font-family: "Open Sans";
+    /* z-index: 1080; */
+}
+
+.admin-create-challenge-sticky-bottom-button{
+	font-family: "Open Sans";
+	float: right;
+	padding-right: 20px;
+	/* margin-bottom: 30px; */
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.admin-create-challenge-save-button{
+	font-family: "Source Code Pro";
+
+	font-weight: 500 !important;
+	color: #fff;
+    background: #2ec866;
+
+	text-shadow: none;
+    border: 1px solid #13A853;
+    border-radius: 2px;
+
+	cursor: pointer;
+    display: inline-block;
+	font-size: 14px;
+	line-height: 18px;
+
+	position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+
+	padding: 10px 15px;
+	margin-bottom: 0;
+}
+
+.admin-create-challenge-save-button:hover{
+	background: #13A853;
+}

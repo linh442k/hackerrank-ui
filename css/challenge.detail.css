@@ -1,0 +1,283 @@
+.challenge-detail-page-title {
+    background: #fff;
+    border-bottom: 1px solid #e0e4e8;
+    font-family: "Open Sans";
+    padding: 10px 0px;
+}
+
+.challenge-detail-page-title > div {
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.challenge-detail-page-title-content h1 {
+    padding: 20px 0px !important;
+    /* font-size: 90%;
+    color: #979faf;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 600; */
+
+    font-weight: 700;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #0e141e;
+    letter-spacing: 0;
+    font-size: 26px;
+    line-height: 1.4;
+}
+
+.challenge-detail-page-content {
+    /* flex-grow: 1; */
+    /* background-color: #f3f7f7; */
+    background-color: #f3f7f7;
+    height: 100%;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.challenge-detail-container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.challenge-detail-page-content-header {
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    min-width: auto;
+    max-width: 1240px;
+}
+
+.challenge-detail-page-content-header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.challenge-detail-page-content-header-list {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: wrap;
+    align-self: stretch;
+}
+
+.challenge-detail-page-content-header-tab {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    list-style: none;
+}
+
+.challenge-detail-page-content-header-item {
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    padding: 15px 30px;
+    outline-width: 0;
+    border: 0;
+}
+
+.content-header-active {
+    background-color: #fff;
+}
+
+.challenge-detail-page-content-header-item-detail {
+    color: #738f93;
+}
+
+.challenge-detail-page-content-header-item-detail:hover {
+    color: #0e141e;
+}
+
+.challenge-detail-page-content-header-item-detail > span {
+    display: inline-block;
+    vertical-align: middle;
+	font-size: 14px;
+}
+
+.challenge-detail-page-content-header-wrapper
+    .challenge-detail-page-content-header-item:not(.content-header-active):not(:first-child):not(:nth-child(2)):after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 1px;
+    height: 20px;
+    background-color: #b7c9cc;
+    content: "";
+    transform: translateY(-50%);
+}
+
+.challenge-detail-page-content-container {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    min-width: auto;
+    max-width: 1240px;
+}
+
+.challenge-detail-page-content-left-panel {
+    flex: 1;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.challenge-detail-page-content-left-panel > section {
+    display: block;
+    margin-bottom: 60px;
+}
+
+.challenge-detail-page-content-left-panel-problem-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.challenge-detail-page-content-left-panel-problem-description {
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    width: 100%;
+    outline-offset: -1px;
+    background-color: white;
+    color: #0e141e;
+}
+
+.challenge-detail-page-content-left-panel-problem-description-container {
+    background-color: #fff;
+}
+
+@media screen and (min-width: 767px) {
+    .challenge-detail-page-content-left-panel-problem-description-container {
+        padding: 15px 30px;
+    }
+}
+
+.challenge-detail-page-content-left-panel-problem-statement-content{
+	margin-bottom: 10px;
+}
+
+.challenge-detail-page-content-left-panel-problem-statement-content p{
+	margin-top: 5px;
+    margin-bottom: 0;
+	color: #576871;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.challenge-detail-page-content-left-panel-problem-statement-content strong{
+	color: #0e141e !important;
+	font-weight: bolder;
+}
+
+.challenge-detail-page-content-left-panel-problem-statement-content ul{
+	margin-left: 20px;
+}
+
+.challenge-detail-page-content-left-panel-problem-statement-content li{
+	color: #576871;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.challenge-detail-page-content-left-panel-problem-statement-content em{
+	font-style: normal !important;
+}
+
+.challenge-detail-page-content-left-panel-problem-statement-content pre{
+	overflow-x: auto;
+    padding: 20px;
+    border: none;
+    background-color: #e7eeef;
+    color: #0e141e;
+    font-size: 15px;
+    line-height: 20px;
+	margin-top: 12px;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.challenge-detail-page-content-left-panel-problem-statement-content pre span{
+	color: #0e141e;
+}
+
+.challenge-detail-page-content-left-panel-problem-statement-content svg{
+	color: #0e141e;
+}
+
+.challenge-detail-page-content-right-panel{
+	box-sizing: border-box;
+    margin: 0 0 30px 30px;
+    width: 280px;
+}
+
+.challenge-detail-page-content-right-panel-detail{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.challenge-detail-page-content-right-panel-detail-item{
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.challenge-detail-page-content-right-panel-detail-item-label{
+	margin-right: 5px;
+	display: inline;
+	color: #738f93;
+}
+
+.challenge-detail-page-content-right-panel-detail-author{
+	width: 140px;
+    text-align: right;
+	color: #097bbf;
+    cursor: pointer;
+}
+
+.challenge-detail-page-content-right-panel-detail-author:hover{
+	text-decoration: underline;
+}
+
+.challenge-detail-hr{
+	border-top: 1px solid #e7eeef;
+    border-bottom: 0;
+    border-left: 0;
+}
+
+.challenge-detail-page-content-left-panel-problem{
+	box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+}

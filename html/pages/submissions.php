@@ -96,7 +96,7 @@
 										</div>
 										<div class="submissions-table-header-button">
 											<p>
-											<a href="/" class="submissions-table-header-button-view" >View Results</a>
+												<a href="/" class="submissions-table-header-button-view">View Results</a>
 											</p>
 										</div>
 									</div>
@@ -122,7 +122,7 @@
 										</div>
 										<div class="submissions-table-header-button">
 											<p>
-											<a href="/" class="submissions-table-header-button-view" >View Results</a>
+												<a href="/" class="submissions-table-header-button-view">View Results</a>
 											</p>
 										</div>
 									</div>
@@ -148,7 +148,7 @@
 										</div>
 										<div class="submissions-table-header-button">
 											<p>
-											<a href="/" class="submissions-table-header-button-view" >View Results</a>
+												<a href="/" class="submissions-table-header-button-view">View Results</a>
 											</p>
 										</div>
 									</div>
@@ -160,10 +160,7 @@
 				</section>
 			</div>
 		</div>
-	</div>
-	</div>
-	</div>
-	<?php require_once "../components/footer.php" ?>
+		<?php require_once "../components/footer.php" ?>
 	</div>
 	<script src="../../js/submissions.js"></script>
 </body>
