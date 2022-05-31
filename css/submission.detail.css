@@ -1,0 +1,381 @@
+/* .challenge-detail-page-content-header-wrapper
+    .challenge-detail-page-content-header-item:not(.content-header-active):not(:first-child):not(:nth-child(2)):after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    display: block;
+    width: 1px;
+    height: 20px;
+    background-color: #b7c9cc;
+    content: "";
+    transform: translateY(-50%);
+} */
+
+.submission-detail-page-content-container {
+    display: flex;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    min-width: auto;
+    max-width: 1240px;
+}
+
+.submission-detail-page-content-left-panel {
+    flex: 1;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    margin-right: 310px;
+}
+
+.submission-detail-page-content-left-panel > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.submission-detail-page-content-left-panel > div:first-child > div {
+    box-sizing: border-box;
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    width: 100%;
+    outline-offset: -1px;
+    background-color: #fff;
+    color: #0e141e;
+}
+
+.submission-detail-page-content-left-panel-container {
+    margin-bottom: 0;
+    padding: 30px;
+    background-color: #fff;
+    font-size: 18px;
+}
+
+.submission-detail-left-panel-header {
+    font-size: 14px;
+}
+
+.submission-detail-left-panel-header-submitted-at {
+    margin-bottom: 10px;
+}
+
+.submission-detail-left-panel-header-submission-score {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.submission-detail-left-panel-header-submission-score label {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.submission-detail-left-panel-header-status-wrap {
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.submission-detail-left-panel-header-status-wrap label {
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+.submission-detail-left-panel-header-status-wrap > .error {
+    color: #d11534;
+}
+
+.submission-detail-left-panel-header-status-wrap > .accepted {
+    color: #1ba94c;
+}
+
+.submission-detail-test-case-status-wrapper{
+	width: 100%;
+}
+
+.submission-detail-left-panel-header-editor-wrapper {
+    margin-top: 30px;
+}
+
+.submission-detail-left-panel-header-editor-wrapper h3 {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.submission-detail-left-panel-header-editor {
+    margin-top: 20px;
+    border: 1px solid #b7c9cc;
+}
+
+.submission-detail-left-panel-header-editor > div {
+	display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #b7c9cc;
+    background: #f3f7f7;
+    font-size: 14px;
+    justify-content: flex-start;
+}
+
+.submission-detail-left-panel-header-editor-code-editor {
+    border-bottom: none !important;
+}
+
+.submission-detail-test-case-status {
+	margin-top: 60px;
+}
+
+.submission-detail-test-case-status-container{
+	box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%) !important;
+	/* margin-top: 30px; */
+    padding: 20px;
+    border-bottom: 1px solid #d11534;
+    background-color: #fff;
+}
+
+.submission-detail-test-case-compile-error {
+	border-bottom: 0;
+}
+
+.submission-detail-test-case-compile-error p {
+	margin: 0 0 5px;
+    color: #576871;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.submission-detail-test-case-compile-error pre{
+	box-sizing: border-box;
+    max-height: 100%;
+	padding: 10px;
+    min-height: 80px;
+	overflow: auto;
+	border: 0;
+    background-color: #f3f7f7;
+    color: #576871;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-weight: 700;
+    line-height: 1.43;
+
+	display: flex;
+}
+
+.submission-detail-test-case-compile-error code {
+	font-weight: 700;
+	font-size: 1em;
+	font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+}
+
+.submission-detail-test-case-compile-error-status{
+	margin: 10px 0;
+}
+
+.submission-detail-test-case-result-container{
+	/* background-color: #fff; */
+	margin-bottom: 30px;
+}
+
+.submission-detail-test-case-result-container > div {
+    min-width: auto;
+	background-color: #f3f7f7;
+	font-weight: 400;
+	line-height: 1.2em;
+	color: #0e141e;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.submission-detail-test-case-result{
+	display: flex;
+	min-height: 430px;
+    max-height: 430px;
+	box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    flex: 1;
+    width: 100%;
+	flex-direction: row;
+	align-items: flex-start;
+	width: 100%;
+}
+
+.submission-detail-test-case-list-container{
+	flex: 0 0 auto;
+	overflow-x: visible;
+    width: auto;
+	display: flex;
+	flex-wrap: wrap;
+    align-self: stretch;
+	width: 100%;
+}
+
+.submission-detail-test-case-list{
+	background-color: #fff;
+	overflow-x: hidden;
+    overflow-y: auto;
+    min-width: auto;
+    height: 100%;
+	flex-direction: column;
+    flex: 0 0 auto;
+	flex-wrap: nowrap;
+	position: relative;
+    z-index: 1;
+    display: flex;
+    list-style: none;
+}
+
+.submission-detail-test-case-list>button{
+	background-color: #fff;
+	border: none;
+}
+
+.submission-detail-test-case{
+	font-size: 16px;
+    cursor: pointer;
+}
+
+.submission-detail-test-case-btn-success{
+	color: #1ba94c;
+	padding: 15px;
+    font-size: 16px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.submission-detail-test-case-btn-error{
+	color: #d11534;
+	padding: 15px;
+    font-size: 16px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.submission-detail-test-case-active > div {
+	font-weight: 700;
+}
+
+.submission-detail-test-case > div {
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.submission-detail-test-case-number{
+	display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 3px 0;
+    flex-grow: 1;
+}
+
+.submission-detail-test-case-info-wrapper{
+	box-shadow: -16px 0 16px -16px rgb(0 0 0 / 40%);
+	background-color: #fff;
+	align-self: stretch;
+	flex: 1;
+    overflow-y: auto;
+    padding: 15px 30px;
+    border: none;
+	display: flex!important;
+	width: 100%;
+    outline-offset: -1px;
+	color: #0e141e;
+}
+
+.submission-detail-test-case-info-public{
+	overflow-y: auto;
+	flex: 1;
+    /* width: 100%; */
+
+}
+
+.submission-detail-test-case-info-public > div {
+	flex-wrap: wrap!important;
+	flex-direction: column!important;
+	display: flex!important;
+	width: 100%;
+}
+
+.submission-detail-test-case-info-public > div > div{
+	box-sizing: border-box;
+    margin: 15px 0;
+    width: 100%;
+	display: flex;
+}
+
+.submission-detail-test-case-info-compile-message-header,
+.submission-detail-test-case-info-output-header,
+.submission-detail-test-case-info-input-header {
+	color: #576871;
+	margin: 0 0 5px;
+	font-weight: 400;
+	font-size: 14px;
+	align-items: baseline;
+	justify-content: space-between;
+
+	display: flex!important;
+}
+
+.submission-detail-test-case-info-compile-message, .submission-detail-test-case-info-output, .submission-detail-test-case-info-input{
+	display: flex;
+	flex-direction: column;
+}
+
+.submission-detail-test-case-info-compile-message-body,
+.submission-detail-test-case-info-input-body,
+.submission-detail-test-case-info-output-body{
+	background-color: #f3f7f7;
+    color: #0e141e;
+    overflow: auto;
+    box-sizing: border-box;
+    border: 0;
+
+	/* max-width: 100%; */
+	max-width: 700px;
+	font-weight: 400;
+	font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+	padding: 10px;
+}
+
+.submission-detail-test-case-info-input-body,
+.submission-detail-test-case-info-output-body{
+	font-weight: 700 !important;
+	font-size: 14px;
+	padding-left: 20px;
+	max-height: 6rem;
+}
+
+.submission-detail-test-case-info-hidden{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: space-between; */
+}
+
+.submission-detail-test-case-info-hidden > .submission-detail-test-case-info-compile-message{
+	box-sizing: border-box;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.submission-detail-test-case-info-hidden-icon{
+	flex-basis: 70%;
+	padding: 60px;
+    text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+.submission-detail-test-case-info-hidden-icon>div{
+	color: #576871;
+    font-size: 26px;
+}

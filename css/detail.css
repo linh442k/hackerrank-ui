@@ -1,0 +1,122 @@
+.challenge-detail-page-title {
+    background: #fff;
+    border-bottom: 1px solid #e0e4e8;
+    font-family: "Open Sans";
+    padding: 10px 0px;
+}
+
+.challenge-detail-page-title > div {
+    position: relative;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.challenge-detail-page-title-content h1 {
+    padding: 20px 0px !important;
+    /* font-size: 90%;
+    color: #979faf;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: 600; */
+
+    font-weight: 700;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #0e141e;
+    letter-spacing: 0;
+    font-size: 26px;
+    line-height: 1.4;
+}
+
+.challenge-detail-page-content {
+    /* flex-grow: 1; */
+    /* background-color: #f3f7f7; */
+    background-color: #f3f7f7;
+    height: 100%;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.challenge-detail-container {
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1240px;
+    min-width: 1024px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.challenge-detail-page-content-header {
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    min-width: auto;
+    max-width: 1240px;
+}
+
+.challenge-detail-page-content-header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+.challenge-detail-page-content-header-list {
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: wrap;
+    align-self: stretch;
+}
+
+.challenge-detail-page-content-header-tab {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    list-style: none;
+}
+
+.challenge-detail-page-content-header-item {
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    padding: 15px 30px;
+    outline-width: 0;
+    border: 0;
+}
+
+.content-header-active {
+    background-color: #fff;
+}
+
+.challenge-detail-page-content-header-item-detail {
+    color: #738f93;
+}
+
+.challenge-detail-page-content-header-item-detail:hover {
+    color: #0e141e;
+}
+
+.challenge-detail-page-content-header-item-detail > span {
+    display: inline-block;
+    vertical-align: middle;
+	font-size: 16px !important;
+}

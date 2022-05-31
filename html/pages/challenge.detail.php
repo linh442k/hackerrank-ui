@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="../../css/detail.css">
+
 	<link rel="stylesheet" href="../../css/challenge.detail.css">
 
 	<link rel="stylesheet" href="../../css/style.css">
@@ -55,11 +58,11 @@
 									<span>Submissions</span>
 								</div>
 							</a>
-							<a class="challenge-detail-page-content-header-item" href="/">
+							<!-- <a class="challenge-detail-page-content-header-item" href="/">
 								<div class="challenge-detail-page-content-header-item-detail">
 									<span>Test</span>
 								</div>
-							</a>
+							</a> -->
 						</div>
 					</div>
 				</div>
