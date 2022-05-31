@@ -111,9 +111,17 @@
 	font-family: "OpenSans";
 }
 
-.search-result>ul{
-	float: none;
-	list-style: none;
+.search-result{
+	display: block;
+	width: 300px;
+	position: absolute;
+	min-height: 100px;
+	top: 40px;
+	left: -20px;
+	z-index: 999;
+	/* background-color: rebeccapurple; */
+	box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
+	background-color: #fff;
 }
 
 .search-input{
@@ -137,6 +145,7 @@
 
 .search-form.focus .search-input i{
 	color: white;
+	padding-left: 0.25rem;
 }
 
 #search-text{
@@ -149,9 +158,14 @@
     border: none;
     background: none;
     box-shadow: none;
-    
+	color: white;
     font-size: 15px;
 	font-family: 'Source Code Pro', monospace;
+}
+
+#search-text:focus{
+	color: white;
+	outline: none !important;
 }
 
 #search-text::placeholder{
@@ -262,4 +276,46 @@
     font-size: 16px;
     line-height: inherit;
     cursor: pointer;
+}
+
+.search-result{
+	display: block;
+	/* flex-direction: column; */
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.search-result-challenge-header {
+	text-transform: uppercase;
+	color: #1ba94c;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px;
+	padding-top: 20px;
+	border-bottom: 2px solid #e0e4e8;
+}
+
+.search-result-contest-header{
+	text-transform: uppercase;
+	color: #f65039;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 15px;
+	padding-top: 20px;
+	border-bottom: 2px solid #e0e4e8;
+}
+
+.search-result-item a{
+	color: #0e141e !important;
+}
+
+.search-result-item{
+	color: #0e141e;
+	font-size: 14px;
+	padding: 15px;
+	border-bottom: 1px solid #e0e4e8;
+}
+
+.search-result-item:hover{
+	cursor: pointer;
+	background-color: #f3f7f7;
 }

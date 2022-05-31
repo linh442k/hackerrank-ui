@@ -28,8 +28,22 @@
 								<input type="text" id="search-text" placeholder="Search">
 								<i class="fa fa-search" aria-hidden="true"></i>
 							</div>
-							<div class="search-result">
-								<ul></ul>
+							<div class="search-result" style="display: none;">
+								<div class="search-result-challenge-header">
+									Challenges
+								</div>
+								<div class="search-result-item">
+									<a href="/">Java 1</a>
+								</div>
+								<div class="search-result-item">
+									<a href="/">Java 1</a>
+								</div>
+								<div class="search-result-contest-header">
+									Contests
+								</div>
+								<div class="search-result-item">
+									<a href="/">Contest Sample</a>
+								</div>
 							</div>
 						</div>
 					</li>
