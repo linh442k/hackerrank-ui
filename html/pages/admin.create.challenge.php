@@ -33,7 +33,9 @@
 			<div class="admin-create-challenge-page-title">
 				<div>
 					<div class="admin-create-challenge-page-title-content">
-						Create Challenge
+						<span><a href="/">Manage Challenges</a></span>
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+						<span class="current-page"><a>Create</a></span>
 					</div>
 				</div>
 			</div>

@@ -51,12 +51,17 @@
     display: inline-block;
     box-sizing: border-box;
     height: 60px;
-    color: #fff;
+    /* color: #fff; */
+	color: #b7c9cc;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     font-family: inherit;
     line-height: 60px;
+}
+
+.header-nav-links .nav-link:hover {
+    color: #fff;
 }
 
 /* .nav-link.active{

@@ -1,0 +1,215 @@
+.admin-edit-testcase-text-helper{
+	margin-top: 10px;
+    margin-bottom: 10px;
+	color: #979faf;
+    font-style: italic;
+	font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.admin-edit-testcase-text-helper a{
+	color: #4691f6;
+    text-decoration: none;
+	transition: 0.3s color ease;
+}
+
+.admin-edit-testcase-text-helper a:hover{
+	color: blue;
+}
+
+.admin-edit-testcase-upload-button-wrapper{
+	margin-bottom: 20px;
+	margin-left: -7.5px;
+    margin-right: -7.5px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.admin-edit-testcase-upload-button{
+	float: right;
+}
+
+.admin-edit-testcase-upload-button button{
+	font-family: "Source Code Pro";
+	font-weight: 500 !important;
+	color: #fff;
+    background: #2ec866;
+	text-shadow: none;
+    border: 1px solid #13A853;
+    border-radius: 2px;
+
+	cursor: pointer;
+    display: inline-block;
+	padding: 10px 15px;
+    margin-bottom: 0;
+	font-size: 14px;
+
+	position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+}
+
+.admin-edit-testcase-upload-button button:hover{
+	background: #13A853;
+}
+
+.admin-edit-testcase-upload-table-wrapper{
+	margin-left: -7.5px;
+    margin-right: -7.5px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
+	margin-top: 20px;
+	font-weight: 500;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.admin-edit-testcase-upload-table-header{
+	width: 100%;
+	margin: 0;
+	/* border-bottom: 1px solid #C2C7D0; */
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background: white;
+    font-size: 14px;
+    border: 1px solid #c2c7d0;
+	border-bottom: none;
+	font-weight: 600;
+}
+
+.admin-edit-testcase-upload-table-order-column{
+	width: 12.5%;
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+	text-align: left !important;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 1em;
+
+	max-height: 5rem;
+}
+
+.admin-edit-testcase-upload-table-input-column, .admin-edit-testcase-upload-table-output-column, .admin-edit-testcase-upload-table-sample-column, .admin-edit-testcase-upload-table-point-column{
+	width: 15%;
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 1em;
+
+	max-height: 5rem;
+}
+
+.admin-edit-testcase-upload-table-crud-column{
+	width:  9%;
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+	text-align: left;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 1em;
+}
+
+.admin-edit-testcase-upload-table-body{
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #C2C7D0;
+    border-bottom: none;
+    background: #fff;
+	text-align: center !important;
+}
+
+.admin-edit-testcase-upload-table-body-item{
+	border-bottom: 1px solid #C2C7D0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+	margin: 0;
+	color: #39424e;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.admin-edit-testcase-upload-table-point-column-content{
+	font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+}
+
+.admin-edit-testcase-upload-table-sample-column i{
+	font-size: 20px !important;
+}
+
+.admin-edit-testcase-upload-table-sample-column .sample-test{
+	color: #26B062;
+}
+
+.admin-edit-testcase-upload-table-sample-column .not-sample-test{
+	color: #C0C7D0;
+}
+
+.admin-edit-testcase-upload-table-input-column, .admin-edit-testcase-upload-table-output-column{
+	width: 22.5% !important;
+	white-space: nowrap;
+	overflow: auto;
+	text-align: left !important;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.admin-edit-testcase-upload-table-input-column::-webkit-scrollbar, .admin-edit-testcase-upload-table-output-column::-webkit-scrollbar{
+	width: 10px;
+	height: 10px;
+}
+
+.admin-edit-testcase-upload-table-input-column::-webkit-scrollbar-thumb, .admin-edit-testcase-upload-table-output-column::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background: #e5e9ee;
+	/* background: #f8f9fa; */
+
+}
+
+.admin-edit-testcase-upload-table-input-column::-webkit-scrollbar-track, .admin-edit-testcase-upload-table-output-column::-webkit-scrollbar-track{
+	background: #f8f9fe;
+	border-radius: 5px;
+}
+
+.admin-edit-testcase-upload-table-crud-column p{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.admin-edit-testcase-upload-table-crud-column span{
+    color: #979faf;
+	font-weight: 500 !important;
+	font-size: 22px;
+	cursor: pointer;
+	padding: 0px 10px;
+}
+
+.admin-edit-testcase-upload-table-crud-column span:hover{
+    color: #4691f6;
+	font-weight: 500 !important;
+	cursor: pointer;
+}
