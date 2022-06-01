@@ -5,13 +5,13 @@ var problem_statement_count = document.getElementsByClassName(
     "statement-input-help-hint-left"
 )[0];
 
-var admin_create_description_input = document.getElementsByClassName(
-    "admin-create-challenge-description-input"
+var admin_edit_description_input = document.getElementsByClassName(
+    "admin-edit-challenge-description-input"
 )[0];
 
 // var problem_statement_input = document.getElementsByClassName("")[0];
 
-admin_create_description_input.onkeyup = (e) => {
+admin_edit_description_input.onkeyup = (e) => {
     // console.log(e.target.value.length);
     if (e.target.value.length <= 140)
         description_count.innerText =
@@ -22,15 +22,15 @@ admin_create_description_input.onkeyup = (e) => {
     }
 };
 
-var admin_create_challenge_public = document.getElementById("admin-create-public-challenge");
+var admin_edit_challenge_public = document.getElementById("admin-edit-public-challenge");
 
-var admin_create_challenge_public_checkbox = document.getElementsByClassName("admin-create-challenge-page-form-element-challenge-label-input")[0];
+var admin_edit_challenge_public_checkbox = document.getElementsByClassName("admin-create-challenge-page-form-element-challenge-label-input")[0];
 
-admin_create_challenge_public.onclick = (e) => {
+admin_edit_challenge_public.onclick = (e) => {
 	// console.log(e.target.checked);
 	if(e.target.checked){
-		admin_create_challenge_public_checkbox.classList.add("checked");
+		admin_edit_challenge_public_checkbox.classList.add("checked");
 	}else{
-		admin_create_challenge_public_checkbox.classList.remove("checked");
+		admin_edit_challenge_public_checkbox.classList.remove("checked");
 	}
 }

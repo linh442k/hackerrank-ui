@@ -1,0 +1,28 @@
+.admin-edit-challenge-save-button{
+	font-family: "Source Code Pro";
+
+	font-weight: 500 !important;
+	color: #fff;
+    background: #2ec866;
+
+	text-shadow: none;
+    border: 1px solid #13A853;
+    border-radius: 2px;
+
+	cursor: pointer;
+    display: inline-block;
+	font-size: 14px;
+	line-height: 18px;
+
+	position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+
+	padding: 10px 15px;
+	margin-bottom: 0;
+}
+
+.admin-edit-challenge-save-button:hover{
+	background: #13A853;
+}
