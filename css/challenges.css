@@ -120,6 +120,9 @@
 .challenges-item-name-details {
     font-size: 12px;
     line-height: 1.5;
+	color: #738f93;
+	overflow: auto;
+	max-height: 3rem;
 }
 
 .challenges-item-container {
@@ -156,6 +159,10 @@
 
 .challenges-list-item-content-body:hover .challenges-item-name-title {
     color: #1ba94c;
+}
+
+.challenges-list-item-content-body:hover .challenges-item-name-details {
+    color: #738f93;
 }
 
 .challenges-list-item-content-body:hover {

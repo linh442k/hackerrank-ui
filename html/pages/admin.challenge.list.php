@@ -41,20 +41,68 @@
 								<h1>Administration</h1>
 							</div>
 							<ul class="admin-list-page-header-navigation">
-								<li class="active">
-									<a href="/" >Manage Contests</a>
-								</li>
 								<li>
-									<a href="/" >Manage Challenges</a>
+									<a href="/">Manage Contests</a>
+								</li>
+								<li class="active">
+									<a>Manage Challenges</a>
 								</li>
 								<div>
 									<form>
-										<input type="text" placeholder="search" id="admin-search-text"  autocomplete="off">
+										<input type="text" placeholder="search" id="admin-search-text" autocomplete="off">
 										<i class="fa fa-search" aria-hidden="true"></i>
 									</form>
 								</div>
 							</ul>
 						</header>
+						<div class="admin-list-page-content-create-button-wrapper">
+							<div class="admin-list-page-content-create-button-text-helper">
+								<p>Challenges you can edit are below.</p>
+							</div>
+							<button class="admin-list-page-content-create-button" href="/">Create Challenge
+							</button>
+						</div>
+						<div class="admin-list-page-content-table-wrapper">
+							<header>
+								<div class="admin-challenge-list-page-content-challenge-name">
+									<p>Challenge Name</p>
+								</div>
+								<div class="admin-challenge-list-page-content-max-score">
+									<p>Max Score</p>
+								</div>
+								<div class="admin-challenge-list-page-content-public">
+									<p>Public Challenge</p>
+								</div>
+							</header>
+							<div class="admin-list-page-content-table-body">
+								<a class="admin-challenge-page-content-table-item">
+									<div class="admin-challenge-page-content-table-item-container">
+										<div class="admin-challenge-list-page-content-challenge-name">
+											<p>Challenge Name</p>
+										</div>
+										<div class="admin-challenge-list-page-content-max-score">
+											<p class="admin-challenge-list-page-content-challenge-max-score">90.50</p>
+										</div>
+										<div class="admin-challenge-list-page-content-public">
+											<p class="admin-challenge-list-public-challenge">Yes</p>
+										</div>
+									</div>
+								</a>
+								<a class="admin-challenge-page-content-table-item">
+									<div class="admin-challenge-page-content-table-item-container">
+										<div class="admin-challenge-list-page-content-challenge-name">
+											<p>Challenge Name</p>
+										</div>
+										<div class="admin-challenge-list-page-content-max-score">
+											<p class="admin-challenge-list-page-content-challenge-max-score">70.20</p>
+										</div>
+										<div class="admin-challenge-list-page-content-public">
+											<p class="admin-challenge-list-hidden-challenge">No</p>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
 					</section>
 				</div>
 			</div>

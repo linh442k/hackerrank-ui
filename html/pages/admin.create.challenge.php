@@ -56,6 +56,15 @@
 									<input id="admin-create-challenge-name" type="text">
 								</div>
 							</div>
+							<div class="admin-create-challenge-page-inner-body-form-element public-checkbox">
+								<label for="admin-create-challenge-public" class="admin-create-challenge-page-form-element-challenge-label">Public Challenge</label>
+								<div class="admin-create-challenge-page-form-element-challenge-label-input">
+									<input type="checkbox" value="solved" id="admin-create-public-challenge">
+									<span class="custom-checkbox"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor">
+											<path d="M9 18c-.3 0-.5-.1-.7-.3l-5-5c-.4-.4-.4-1 0-1.4s1-.4 1.4 0L9 15.6 19.3 5.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-11 11c-.2.2-.4.3-.7.3z"></path>
+										</svg></span>
+								</div>
+							</div>
 							<div class="admin-create-challenge-page-inner-body-form-element">
 								<label for="admin-create-challenge-description" class="admin-create-challenge-page-form-element-challenge-label">Description</label>
 								<div class="admin-create-challenge-page-form-element-challenge-description-input">

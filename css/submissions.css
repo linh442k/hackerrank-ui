@@ -297,3 +297,9 @@
     border-radius: 2px;
     box-shadow: none;
 }
+
+.submissions-table-header-button-view:hover{
+	background: #1cb557;
+    border: 1px solid #1cb557;
+    color: #ffffff !important;
+}

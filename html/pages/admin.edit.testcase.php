@@ -95,7 +95,7 @@
 									<p>Sample</p>
 								</div>
 								<div class="admin-edit-testcase-upload-table-point-column">
-									<p>Point</p>
+									<p>Score</p>
 								</div>
 								<!-- <div class="admin-edit-testcase-upload-table-crud-column">
 									<p>&nbsp;</p>

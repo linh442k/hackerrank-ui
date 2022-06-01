@@ -1,47 +1,52 @@
-/* .admin-list-title-wrapper{
-	font-family: "Open Sans";
-	position: relative;
+.admin-challenge-list-page-content-challenge-name{
+	width: 20%;
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 22.5px;
+    padding-right: 7.5px;
+	text-align: left !important;
+
+	font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
 }
 
-.admin-list-title{
-	position: relative;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    max-width: 1240px;
-    min-width: 1024px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    max-width: 1240px;
-    min-width: 1024px;
-    padding-left: 20px;
-    padding-right: 20px;
+.admin-challenge-list-page-content-max-score, .admin-challenge-list-page-content-public{
+	width: 20%;
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+	text-align: center !important;
+
+	font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
 }
 
-.admin-list-title-wrapper{
-	padding: 15px 0px !important;
-    font-size: 90%;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    font-weight: 600;
-}
-.admin-list-title>div{
-	font-family: "Open Sans", Arial, Helvetica, sans-serif;
-	padding-bottom: 20px;
-	padding-top: 20px;
+.admin-challenge-page-content-table-item-container{
+	border-bottom: 1px solid #C2C7D0;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin: 0;
+
 	display: flex;
 }
 
-.admin-list-title>div>h1{
-	font-size: 2em;
-    font-weight: 100;
-	justify-content: flex-start;
-	line-height: 1em;
-	font-weight: normal !important;
+.admin-challenge-page-content-table-item-container p{
+	margin-top: 5px;
 }
- */
+
+.admin-challenge-page-content-table-item-container .admin-challenge-list-page-content-max-score{
+	color: #979faf !important;
+}
+
+.admin-challenge-page-content-table-item-container .admin-challenge-list-public-challenge{
+	color: #2ec866
+}
+
+.admin-challenge-page-content-table-item-container .admin-challenge-list-hidden-challenge{
+	color: #f65039
+}

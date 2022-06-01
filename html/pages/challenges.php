@@ -55,7 +55,7 @@
 																<h4 class="challenges-item-name-title">
 																	Welcome to Java!
 																	<div class="challenges-item-name-details">
-																		<span class="challenges-item-name-detail">Easy</span>
+																		<span class="challenges-item-name-detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, fuga voluptatem soluta ducimus sint velit provident eligendi perspiciatis eveniet et, quidem praesentium, cupiditate similique qui expedita odit dolore fugiat. Sed.</span>
 																	</div>
 																</h4>
 															</div>

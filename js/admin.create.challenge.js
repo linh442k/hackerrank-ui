@@ -21,3 +21,16 @@ description_input.onkeyup = (e) => {
 		e.target.value = a;
     }
 };
+
+var admin_create_challenge_public = document.getElementById("admin-create-public-challenge");
+
+var admin_create_challenge_public_checkbox = document.getElementsByClassName("admin-create-challenge-page-form-element-challenge-label-input")[0];
+
+admin_create_challenge_public.onclick = (e) => {
+	// console.log(e.target.checked);
+	if(e.target.checked){
+		admin_create_challenge_public_checkbox.classList.add("checked");
+	}else{
+		admin_create_challenge_public_checkbox.classList.remove("checked");
+	}
+}
