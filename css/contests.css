@@ -1,0 +1,167 @@
+.contests-list-administration-link {
+    padding: 20px 0;
+    border-bottom: 1px solid #e7eeef;
+    font-weight: 400;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.contests-list-administration-link > h5 {
+    margin-bottom: 10px;
+    color: #738f93;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.contests-list-administration-link > ul > li {
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.contests-list-administration-link > ul > li > a {
+    color: #097bbf;
+    cursor: pointer;
+}
+
+.contests-list-administration-link > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+.contests-list-item-wrapper {
+    position: relative;
+    list-style: none;
+}
+
+.contests-list-item-container {
+    padding-top: 20px;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.contests-list-item-container > .contests-list-item-content-wrapper {
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
+    padding: 20px 30px;
+    background-color: #fff;
+    cursor: pointer;
+    color: var(--color-shade-dark, #738f93);
+    letter-spacing: 0;
+    font-size: 13px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.contests-list-item-container > .contests-list-item-content-wrapper:hover {
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 5%) !important;
+}
+
+.contests-list-item-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contests-list-item-content-title {
+    padding-right: 5px;
+    color: #0e141e;
+    font-size: 18px;
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	font-weight: 400;
+}
+
+.contests-list-item-container > .contests-list-item-content-wrapper:hover .contests-list-item-content-title {
+    color: #1ba94c;
+}
+
+.contests-list-item-content-status-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+}
+
+.contests-list-item-content-status {
+    margin-right: 10px;
+    color: #39424e;
+}
+
+.contests-list-item-link {
+    color: #097bbf;
+    cursor: pointer;
+}
+
+.contests-list-item-link:hover {
+    text-decoration: underline;
+}
+
+.contests-list-item-button {
+    background-color: transparent;
+    color: #1ba94c;
+    border: 1px solid #1ba94c;
+
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 10px;
+    width: 175px;
+    text-align: center;
+
+    font-weight: 700;
+    border-radius: 2px;
+    word-spacing: -2px;
+    font-family: "Source Code Pro";
+    font-size: 15px;
+    font-size: 15px;
+}
+
+.contests-list-item-button-inner {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+	padding: 7.5px 0px;
+}
+
+.contests-list-item-button-inner > span {
+    order: 1;
+}
+
+.contests-list-item-description-wrapper{
+	/* height: auto;
+	display: none; */
+	/* height: 0px; */
+	max-height: 0px;
+    overflow: hidden;
+	transition: max-height 500ms ease-out;
+}
+
+.contests-list-item-wrapper.contest-detail-open .contests-list-item-description-wrapper{
+	/* display: block; */
+	height: auto;
+	max-height: 20rem;
+	transition: max-height 500ms ease-in;
+}
+
+.contests-list-item-description-container{
+	padding: 20px 30px;
+    border-top: 1px solid #f0f0f0;
+    background-color: #fff;
+	position: relative;
+	line-height: 1.4;
+	box-shadow: 0 3px 10px 0 rgb(0 0 0 / 10%);
+}
+
+.contests-list-item-description-name{
+	padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.contests-list-item-description-content p{
+	font-weight: 400;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}

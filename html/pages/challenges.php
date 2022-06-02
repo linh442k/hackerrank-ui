@@ -132,7 +132,6 @@
 																			<div class="challenges-list-filter-group-item-content">
 																				Solved
 																			</div>
-
 																		</label>
 																	</div>
 																</div>
@@ -159,18 +158,17 @@
 													</div>
 												</div>
 											</div>
-									</div>
 
+										</section>
+									</div>
+								</div>
+							</div>
 						</section>
 					</div>
 				</div>
 			</div>
-			</section>
 		</div>
-	</div>
-	</div>
-	</div>
-	<?php require_once "../components/footer.php" ?>
+		<?php require_once "../components/footer.php" ?>
 	</div>
 	<script src="../../js/challenges.js"></script>
 </body>
