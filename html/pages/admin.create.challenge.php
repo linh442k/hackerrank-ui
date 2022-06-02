@@ -109,7 +109,7 @@
 				<div class="admin-create-challenge-sticky-bottom">
 					<div class="admin-create-challenge-sticky-bottom-bar">
 						<div class="admin-create-challenge-sticky-bottom-button">
-							<button class="admin-create-challenge-save-button">Save Changes</button>
+							<button class="admin-create-challenge-save-button" id="admin-create-challenge-save-button">Save Changes</button>
 						</div>
 					</div>
 				</div>

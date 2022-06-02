@@ -103,8 +103,8 @@
 .admin-create-challenge-page-inner-body-form-element{
 	margin-left: -7.5px;
     margin-right: -7.5px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	display: flex;
 }
 
@@ -213,7 +213,6 @@
     position: relative;
 	font-family: "Open Sans";
 	float: right;
-
 }
 
 .statement-input-help-hint{

@@ -40,6 +40,30 @@
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
+.admin-create-contest-page-title-content a{
+	text-decoration: none;
+	color:#979faf !important;
+	cursor: pointer;
+}
+
+.admin-create-contest-page-title-content i{
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.admin-create-contest-page-title-content span{
+	padding-right: 5px;
+}
+
+.admin-create-contest-page-title-content .current-page{
+	padding-left: 5px;
+}
+
+.admin-create-contest-page-title-content a:hover{
+	text-decoration: none;
+	color: #39424e !important;
+}
+
 .admin-create-contest-container {
     box-sizing: border-box;
     margin-left: auto;
@@ -49,4 +73,21 @@
     min-width: 1024px;
     padding-left: 20px;
     padding-right: 20px;
+	margin-bottom: 100px;
+}
+/* 
+#admin-create-contest-name{
+	width: 40%;
+} */
+
+#admin-create-contest-start-time-date, #admin-create-contest-end-time-date{
+	width: 60%;
+}
+
+#admin-create-contest-start-time-hour, #admin-create-contest-end-time-hour{
+	width: 36%;
+}
+
+#admin-create-contest-duration{
+	width: 50%;
 }
