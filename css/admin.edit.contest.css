@@ -1,0 +1,11 @@
+#admin-edit-contest-start-time-date, #admin-edit-contest-end-time-date{
+	width: 60%;
+}
+
+#admin-edit-contest-start-time-hour, #admin-edit-contest-end-time-hour{
+	width: 36%;
+}
+
+#admin-edit-contest-duration{
+	width: 30%;
+}
