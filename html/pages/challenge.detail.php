@@ -626,6 +626,14 @@
 						<!-- <div style="min-height: 90px;"></div> -->
 						<?php require_once "../components/editor.php" ?>
 					</section>
+					<!-- <section class="challenge-detail-page-content-left-panel-hidden-problem">
+						<div>
+							<svg viewBox="0 0 24 24" width="1em" height="1em" class=" ui-svg-icon" fill="currentColor">
+								<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+							</svg>
+							<span>Hidden Challenge</span>
+						</div>
+					</section> -->
 				</div>
 				<div class="challenge-detail-page-content-right-panel">
 					<aside>

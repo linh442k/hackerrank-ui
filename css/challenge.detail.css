@@ -158,3 +158,29 @@
 .challenge-detail-page-content-left-panel-problem{
 	box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
 }
+
+.challenge-detail-page-content-left-panel-hidden-problem{
+	box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+    width: 100%;
+    outline-offset: -1px;
+    background-color: white;
+    color: #0e141e;
+	margin-bottom: 40px;
+	min-height: 800px;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+}
+
+.challenge-detail-page-content-left-panel-hidden-problem>div{
+	color: #576871;
+    font-size: 26px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.challenge-detail-page-content-left-panel-hidden-problem>div>svg{
+	margin-right: 1rem;
+}

@@ -283,7 +283,7 @@
 												</button>
 											</div>
 											<div class="submission-detail-test-case-info-wrapper">
-												<div class="submission-detail-test-case-info-public">
+												<!-- <div class="submission-detail-test-case-info-public">
 													<div>
 														<div class="submission-detail-test-case-info-compile-message">
 															<div class="submission-detail-test-case-info-compile-message-header">
@@ -332,8 +332,8 @@
 															</div>
 														</div>
 													</div>
-												</div>
-												<!-- <div class="submission-detail-test-case-info-hidden">
+												</div> -->
+												<div class="submission-detail-test-case-info-hidden">
 													<div class="submission-detail-test-case-info-compile-message">
 														<div class="submission-detail-test-case-info-compile-message-header">
 															Compiler Message
@@ -350,7 +350,7 @@
 															<span>Hidden Test Case</span>
 														</div>
 													</div>
-												</div> -->
+												</div>
 											</div>
 										</div>
 									</div>
