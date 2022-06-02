@@ -116,7 +116,7 @@
 										<p class="sample-test"><i class="fa fa-check" aria-hidden="true"></i></p>
 									</div>
 									<div class="admin-edit-testcase-upload-table-point-column">
-										<p class="admin-edit-testcase-upload-table-point-column-content">10</p>
+										<p class="admin-edit-testcase-upload-table-point-column-content">10.00</p>
 									</div>
 									<div class="admin-edit-testcase-upload-table-crud-column">
 										<p>
@@ -145,7 +145,7 @@
 										<p class="not-sample-test"><i class="fa fa-times" aria-hidden="true"></i></p>
 									</div>
 									<div class="admin-edit-testcase-upload-table-point-column">
-										<p class="admin-edit-testcase-upload-table-point-column-content">10</p>
+										<p class="admin-edit-testcase-upload-table-point-column-content">10.00</p>
 									</div>
 									<div class="admin-edit-testcase-upload-table-crud-column">
 										<p>

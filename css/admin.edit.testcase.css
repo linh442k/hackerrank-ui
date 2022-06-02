@@ -100,7 +100,7 @@
 	max-height: 5rem;
 }
 
-.admin-edit-testcase-upload-table-input-column, .admin-edit-testcase-upload-table-output-column, .admin-edit-testcase-upload-table-sample-column, .admin-edit-testcase-upload-table-point-column{
+.admin-edit-testcase-upload-table-input-column, .admin-edit-testcase-upload-table-output-column{
 	width: 15%;
 	box-sizing: border-box;
     float: left;
@@ -113,6 +113,17 @@
 	font-size: 1em;
 
 	max-height: 5rem;
+
+	/* overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: wrap;
+	white-space: nowrap; */
+}
+
+.admin-edit-testcase-upload-table-input-column p, .admin-edit-testcase-upload-table-output-column p{
+	/* width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis; */
 }
 
 .admin-edit-testcase-upload-table-crud-column{
