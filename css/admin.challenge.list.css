@@ -10,7 +10,7 @@
 	font-size: 1em;
     line-height: 1.5em;
     margin: 0;
-}
+} 
 
 .admin-challenge-list-page-content-max-score, .admin-challenge-list-page-content-public{
 	width: 20%;
@@ -37,6 +37,9 @@
 
 .admin-challenge-page-content-table-item-container p{
 	margin-top: 5px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .admin-challenge-page-content-table-item-container .admin-challenge-list-page-content-max-score{

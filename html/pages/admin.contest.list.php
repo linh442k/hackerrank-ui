@@ -10,6 +10,8 @@
 
 	<link rel="stylesheet" href="../../css/admin.challenge.list.css">
 
+	<link rel="stylesheet" href="../../css/admin.contest.list.css">
+
 	<link rel="stylesheet" href="../../css/style.css">
 
 	<link rel="stylesheet" href="../../css/header.css">
@@ -26,7 +28,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-	<title>Manage Challenges</title>
+	<title>Manage Contests</title>
 </head>
 
 <body>
@@ -41,15 +43,15 @@
 								<h1>Administration</h1>
 							</div>
 							<ul class="admin-list-page-header-navigation">
-								<li>
+								<li class="active">
 									<a href="/">Manage Contests</a>
 								</li>
-								<li class="active">
+								<li>
 									<a>Manage Challenges</a>
 								</li>
 								<div>
 									<form>
-										<input type="text" placeholder="search" id="admin-search-challenge-text" autocomplete="off">
+										<input type="text" placeholder="search" id="admin-search-contest-text" autocomplete="off">
 										<i class="fa fa-search" aria-hidden="true"></i>
 									</form>
 								</div>
@@ -57,47 +59,56 @@
 						</header>
 						<div class="admin-list-page-content-create-button-wrapper">
 							<div class="admin-list-page-content-create-button-text-helper">
-								<p>Challenges you can edit are below.</p>
+								<p>Contests you can edit are below.</p>
 							</div>
-							<button class="admin-list-page-content-create-button" href="/">Create Challenge
+							<button class="admin-list-page-content-create-button" href="/">Create Contest
 							</button>
 						</div>
 						<div class="admin-list-page-content-table-wrapper">
 							<header>
-								<div class="admin-challenge-list-page-content-challenge-name">
-									<p>Challenge Name</p>
+								<div class="admin-contest-list-page-content-contest-name">
+									<p>Contest Name</p>
 								</div>
-								<div class="admin-challenge-list-page-content-max-score">
-									<p>Max Score</p>
+								<div class="admin-contest-list-page-content-contest-start-date">
+									<p>Start Date</p>
 								</div>
-								<div class="admin-challenge-list-page-content-public">
-									<p>Public Challenge</p>
+								<div class="admin-contest-list-page-content-contest-end-date">
+									<p>End Date</p>
+								</div>
+								<div class="admin-contest-list-page-content-contest-duration">
+									<p>Duration</p>
 								</div>
 							</header>
 							<div class="admin-list-page-content-table-body">
 								<a class="admin-challenge-page-content-table-item">
 									<div class="admin-challenge-page-content-table-item-container">
-										<div class="admin-challenge-list-page-content-challenge-name">
-											<p>Challenge Name</p>
+										<div class="admin-contest-list-page-content-contest-name">
+											<p>Master</p>
 										</div>
-										<div class="admin-challenge-list-page-content-max-score">
-											<p class="admin-challenge-list-page-content-challenge-max-score">90.50</p>
+										<div class="admin-contest-list-page-content-contest-start-date">
+											<p>Dec 12, 1998</p>
 										</div>
-										<div class="admin-challenge-list-page-content-public">
-											<p class="admin-challenge-list-public-challenge">Yes</p>
+										<div class="admin-contest-list-page-content-contest-end-date">
+											<p>Dec 08, 1999</p>
+										</div>
+										<div class="admin-contest-list-page-content-contest-duration">
+											<p>120 minutes</p>
 										</div>
 									</div>
 								</a>
 								<a class="admin-challenge-page-content-table-item">
 									<div class="admin-challenge-page-content-table-item-container">
-										<div class="admin-challenge-list-page-content-challenge-name">
-											<p>Challenge Name</p>
+										<div class="admin-contest-list-page-content-contest-name">
+											<p>National Disability Independence Day 2021 Coding Contest</p>
 										</div>
-										<div class="admin-challenge-list-page-content-max-score">
-											<p class="admin-challenge-list-page-content-challenge-max-score">70.20</p>
+										<div class="admin-contest-list-page-content-contest-start-date">
+											<p>April 12, 1998</p>
 										</div>
-										<div class="admin-challenge-list-page-content-public">
-											<p class="admin-challenge-list-hidden-challenge">No</p>
+										<div class="admin-contest-list-page-content-contest-end-date">
+											<p>April 04, 2000</p>
+										</div>
+										<div class="admin-contest-list-page-content-contest-duration">
+											<p>60 minutes</p>
 										</div>
 									</div>
 								</a>
@@ -105,8 +116,10 @@
 						</div>
 					</section>
 				</div>
+				</section>
 			</div>
 		</div>
+	</div>
 	</div>
 	</div>
 	<script src="../../js/admin.list.js"></script>

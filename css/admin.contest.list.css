@@ -1,0 +1,33 @@
+.admin-contest-list-page-content-contest-name{
+	width: 30%;
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 22.5px;
+    padding-right: 7.5px;
+	text-align: left !important;
+
+	font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+} 
+
+.admin-contest-list-page-content-contest-start-date, .admin-contest-list-page-content-contest-end-date, .admin-contest-list-page-content-contest-duration{
+	width: 20%;
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+	text-align: center !important;
+
+	font-size: 1em;
+    line-height: 1.5em;
+    margin: 0;
+}
+
+.admin-challenge-page-content-table-item-container .admin-contest-list-page-content-contest-start-date, 
+.admin-challenge-page-content-table-item-container .admin-contest-list-page-content-contest-end-date, 
+.admin-challenge-page-content-table-item-container .admin-contest-list-page-content-contest-duration{
+	color: #979faf !important;
+}
