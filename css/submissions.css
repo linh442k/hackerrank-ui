@@ -260,6 +260,10 @@
 	font-size: 1em;
     line-height: 1.5em;
     margin: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-weight: normal;
 }
 
 .submissions-table-header-result-wrong-answer i{

@@ -1,5 +1,5 @@
 .admin-contest-list-page-content-contest-name{
-	width: 30%;
+	width: 20%;
 	box-sizing: border-box;
     float: left;
     margin-left: 0;
@@ -12,7 +12,10 @@
     margin: 0;
 } 
 
-.admin-contest-list-page-content-contest-start-date, .admin-contest-list-page-content-contest-end-date, .admin-contest-list-page-content-contest-duration{
+.admin-contest-list-page-content-contest-start-date, 
+.admin-contest-list-page-content-contest-end-date, 
+.admin-contest-list-page-content-contest-duration,
+.admin-contest-list-page-content-contest-challenges{
 	width: 20%;
 	box-sizing: border-box;
     float: left;
@@ -28,6 +31,8 @@
 
 .admin-challenge-page-content-table-item-container .admin-contest-list-page-content-contest-start-date, 
 .admin-challenge-page-content-table-item-container .admin-contest-list-page-content-contest-end-date, 
-.admin-challenge-page-content-table-item-container .admin-contest-list-page-content-contest-duration{
+.admin-challenge-page-content-table-item-container .admin-contest-list-page-content-contest-duration,
+.admin-challenge-page-content-table-item-container .admin-contest-list-page-content-contest-challenges
+{
 	color: #979faf !important;
 }

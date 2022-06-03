@@ -78,6 +78,9 @@
 								<div class="admin-contest-list-page-content-contest-duration">
 									<p>Duration</p>
 								</div>
+								<div class="admin-contest-list-page-content-contest-challenges">
+									<p>Number of Challenges</p>
+								</div>
 							</header>
 							<div class="admin-list-page-content-table-body">
 								<a class="admin-challenge-page-content-table-item">
@@ -94,6 +97,9 @@
 										<div class="admin-contest-list-page-content-contest-duration">
 											<p>120 minutes</p>
 										</div>
+										<div class="admin-contest-list-page-content-contest-challenges">
+											<p>2 Challenges</p>
+										</div>
 									</div>
 								</a>
 								<a class="admin-challenge-page-content-table-item">
@@ -109,6 +115,9 @@
 										</div>
 										<div class="admin-contest-list-page-content-contest-duration">
 											<p>60 minutes</p>
+										</div>
+										<div class="admin-contest-list-page-content-contest-challenges">
+											<p>1 Challenge</p>
 										</div>
 									</div>
 								</a>
