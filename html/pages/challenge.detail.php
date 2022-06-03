@@ -10,6 +10,8 @@
 
 	<link rel="stylesheet" href="../../css/challenge.detail.css">
 
+	<link rel="stylesheet" href="../../css/submission.detail.css">
+
 	<link rel="stylesheet" href="../../css/style.css">
 
 	<link rel="stylesheet" href="../../css/header.css">
@@ -625,6 +627,462 @@
 					<section class="challenge-detail-page-content-left-panel-problem">
 						<!-- <div style="min-height: 90px;"></div> -->
 						<?php require_once "../components/editor.php" ?>
+					</section>
+					<section>
+						<div class="challenge-detail-page-editor-footer">
+							<button class="submit-challenge-code">
+								<div><span>Submit Code</span></div>
+							</button>
+							<button class="run-challenge-code">
+								<div><span>Run Code</span></div>
+							</button>
+						</div>
+						<div class="challenge-detail-page-editor-custom-test">
+							<div class="checkbox">
+								<div class="custom-test-checker">
+									<label>
+										<div class="checkbox-wrap">
+											<input type="checkbox" class="checkbox-input" id="custom-test-input-checkbox">
+											<span>
+												<svg viewBox="0 0 24 24" width="1em" height="1em" class="checkbox__check-icon ui-svg-icon" fill="currentColor">
+													<path d="M9 18c-.3 0-.5-.1-.7-.3l-5-5c-.4-.4-.4-1 0-1.4s1-.4 1.4 0L9 15.6 19.3 5.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-11 11c-.2.2-.4.3-.7.3z">
+													</path>
+												</svg>
+											</span>
+										</div>
+										<div class="label">Test against custom input</div>
+									</label>
+								</div>
+								<div>
+									<textarea id="custom-test-input-text" rows="5" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="challenge-detail-problem-responder-container">
+							<div class="challenge-detail-problem-responder-compile-error">
+								<div class="challenge-detail-problem-responder-compile-error-header">
+									<p>Compilation error :(</p>
+								</div>
+								<div class="challenge-detail-problem-responder-compile-error-detail">
+									<div>
+										<div class="compile-message">
+											<p>
+												Compile Message
+											</p>
+											<pre><code>Sorry: IndentationError: expected an indented block (Solution.py, line 19)
+											</code></pre>
+										</div>
+										<div class="exit-status">
+											<p>
+												Exit Status
+											</p>
+											<pre><code>1
+											</code></pre>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+					<section>
+						<div class="challenge-detail-problem-responder-container">
+							<div class="challenge-detail-problem-responder-compile-error">
+								<div class="challenge-detail-problem-responder-compile-error-header">
+									<p>Runtime error :(</p>
+									<div>
+										<p class="compile-advice">Click the Submit Code button to run your code against all the test cases.</p>
+									</div>
+								</div>
+								<div class="submission-detail-test-case-info-wrapper runtime-error">
+									<div class="submission-detail-test-case-info-public">
+										<div>
+											<div class="submission-detail-test-case-info-input">
+												<div class="submission-detail-test-case-info-input-header">
+													Input (stdin)
+												</div>
+												<div class="submission-detail-test-case-info-input-body">
+													5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+													3 6 10
+													5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+													<br>
+													3 6 10
+													5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+													<br>
+													3 6 10
+													5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+													<br>
+													3 6 10
+												</div>
+											</div>
+											<div class="submission-detail-test-case-info-output">
+												<div class="submission-detail-test-case-info-output-header">
+													Your Output (stdout)
+												</div>
+												<div class="submission-detail-test-case-info-output-body">
+													~ no response on stdout ~
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+					<section>
+						<div class="challenge-detail-problem-responder-container">
+							<div class="challenge-detail-problem-responder-compile-error">
+								<div class="challenge-detail-problem-responder-compile-error-header">
+									<p>2/2 test cases failed</p>
+								</div>
+								<div class="submission-detail-test-case-status-wrapper">
+									<div class="submission-detail-test-case-result-container">
+										<div>
+											<div class="submission-detail-test-case-result">
+												<div class="submission-detail-test-case-list-container">
+													<div class="submission-detail-test-case-list">
+														<button class="submission-detail-test-case submission-detail-test-case-active">
+															<div class="submission-detail-test-case-btn-success">
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Passed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M12 23C5.9 23 1 18.1 1 12c0-3 1.1-5.7 3.2-7.8C6.3 2.1 9.1 1 12 1c1.6 0 3.1.3 4.5 1 .5.2.7.8.5 1.3-.2.5-.8.7-1.3.5-1.2-.5-2.4-.8-3.7-.8-5 0-9 4-9 9s4 9 9 9 9-4 9-9v-.9c0-.6.4-1 1-1s1 .4 1 1v.9c0 6.1-4.9 11-11 11z"></path>
+																	<path d="M12 15c-.3 0-.5-.1-.7-.3l-3-3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l2.3 2.3L22.3 2.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-11 11c-.2.2-.4.3-.7.3z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 0</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Hidden test case" tabindex="0" data-automation="tab-item-lock-icon" class=" ui-svg-icon" fill="currentColor" aria-describedby="tooltip-1">
+																	<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+																</svg>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Test case 1</span>
+															</div>
+														</button>
+													</div>
+													<div class="submission-detail-test-case-info-wrapper">
+														<div class="submission-detail-test-case-info-public">
+															<div>
+																<div class="submission-detail-test-case-info-compile-message">
+																	<div class="submission-detail-test-case-info-compile-message-header">
+																		Compiler Message
+																	</div>
+																	<div class="submission-detail-test-case-info-compile-message-body">
+																		Success
+																	</div>
+																</div>
+																<div class="submission-detail-test-case-info-input">
+																	<div class="submission-detail-test-case-info-input-header">
+																		Input (stdin)
+																	</div>
+																	<div class="submission-detail-test-case-info-input-body">
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																	</div>
+																</div>
+																<div class="submission-detail-test-case-info-output">
+																	<div class="submission-detail-test-case-info-output-header">
+																		Expected Output
+																	</div>
+																	<div class="submission-detail-test-case-info-output-body">
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeewerwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeewerwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeewerwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeewerwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																	</div>
+																</div>
+															</div>
+														</div>
+														<!-- <div class="submission-detail-test-case-info-hidden">
+													<div class="submission-detail-test-case-info-compile-message">
+														<div class="submission-detail-test-case-info-compile-message-header">
+															Compiler Message
+														</div>
+														<div class="submission-detail-test-case-info-compile-message-body">
+															Wrong Answer
+														</div>
+													</div>
+													<div class="submission-detail-test-case-info-hidden-icon">
+														<div>
+															<svg viewBox="0 0 24 24" width="1em" height="1em" class=" ui-svg-icon" fill="currentColor">
+																<path d="M19 10h-1V7c0-3.3-2.7-6-6-6S6 3.7 6 7v3H5c-1.7 0-3 1.3-3 3v7c0 1.7 1.3 3 3 3h14c1.7 0 3-1.3 3-3v-7c0-1.7-1.3-3-3-3zM8 7c0-2.2 1.8-4 4-4s4 1.8 4 4v3H8V7zm12 13c0 .6-.4 1-1 1H5c-.6 0-1-.4-1-1v-7c0-.6.4-1 1-1h14c.6 0 1 .4 1 1v7z"></path>
+															</svg>
+															<span>Hidden Test Case</span>
+														</div>
+													</div>
+												</div> -->
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section>
+						<div class="challenge-detail-problem-responder-container">
+							<div class="challenge-detail-problem-responder-compile-error">
+								<div class="challenge-detail-problem-responder-compile-error-header">
+									<p>Wrong Answer :(</p>
+								</div>
+								<div class="submission-detail-test-case-status-wrapper">
+									<div class="submission-detail-test-case-result-container">
+										<div>
+											<div class="submission-detail-test-case-result">
+												<div class="submission-detail-test-case-list-container">
+													<div class="submission-detail-test-case-list">
+														<button class="submission-detail-test-case submission-detail-test-case-active">
+															<div class="submission-detail-test-case-btn-success">
+																<svg viewBox="0 0 24 24" width="1em" height="1em" role="img" aria-label="Passed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M12 23C5.9 23 1 18.1 1 12c0-3 1.1-5.7 3.2-7.8C6.3 2.1 9.1 1 12 1c1.6 0 3.1.3 4.5 1 .5.2.7.8.5 1.3-.2.5-.8.7-1.3.5-1.2-.5-2.4-.8-3.7-.8-5 0-9 4-9 9s4 9 9 9 9-4 9-9v-.9c0-.6.4-1 1-1s1 .4 1 1v.9c0 6.1-4.9 11-11 11z"></path>
+																	<path d="M12 15c-.3 0-.5-.1-.7-.3l-3-3c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l2.3 2.3L22.3 2.3c.4-.4 1-.4 1.4 0s.4 1 0 1.4l-11 11c-.2.2-.4.3-.7.3z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Sample Test case 0</span>
+															</div>
+														</button>
+														<button class="submission-detail-test-case">
+															<div class="submission-detail-test-case-btn-error">
+																<svg viewBox="0 0 100 100" width="1em" height="1em" role="img" aria-label="Failed" class="tab-item__status-icon ui-svg-icon" fill="currentColor">
+																	<path d="M88.184 81.468a3.008 3.008 0 0 1 0 4.242l-2.475 2.475a3.008 3.008 0 0 1-4.242 0l-69.65-69.65a3.008 3.008 0 0 1 0-4.242l2.476-2.476a3.008 3.008 0 0 1 4.242 0l69.649 69.651z"></path>
+																	<path d="M18.532 88.184a3.01 3.01 0 0 1-4.242 0l-2.475-2.475a3.008 3.008 0 0 1 0-4.242l69.65-69.651a3.008 3.008 0 0 1 4.242 0l2.476 2.476a3.01 3.01 0 0 1 0 4.242l-69.651 69.65z"></path>
+																</svg>
+																<span class="submission-detail-test-case-number">Sample Test case 1</span>
+															</div>
+														</button>
+													</div>
+													<div class="submission-detail-test-case-info-wrapper">
+														<div class="submission-detail-test-case-info-public">
+															<div>
+																<div class="submission-detail-test-case-info-compile-message">
+																	<div class="submission-detail-test-case-info-compile-message-header">
+																		Compiler Message
+																	</div>
+																	<div class="submission-detail-test-case-info-compile-message-body">
+																		Success
+																	</div>
+																</div>
+																<div class="submission-detail-test-case-info-input">
+																	<div class="submission-detail-test-case-info-input-header">
+																		Input (stdin)
+																	</div>
+																	<div class="submission-detail-test-case-info-input-body">
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																	</div>
+																</div>
+																<div class="submission-detail-test-case-info-output">
+																	<div class="submission-detail-test-case-info-output-header">
+																		Your Output (stdout)
+																	</div>
+																	<div class="submission-detail-test-case-info-output-body">
+																		5 6 7wer werwerwer
+
+
+
+																		<br>
+																		3 6 10
+																	</div>
+																</div>
+																<div class="submission-detail-test-case-info-output">
+																	<div class="submission-detail-test-case-info-output-header">
+																		Expected Output
+																	</div>
+																	<div class="submission-detail-test-case-info-output-body">
+																		5 6 7wer werwerwer
+
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</section>
 					<!-- <section class="challenge-detail-page-content-left-panel-hidden-problem">
 						<div>

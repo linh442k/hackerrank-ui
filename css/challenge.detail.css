@@ -184,3 +184,316 @@
 .challenge-detail-page-content-left-panel-hidden-problem>div>svg{
 	margin-right: 1rem;
 }
+
+
+.challenge-detail-problem-responder-container{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.challenge-detail-problem-responder-container>div{
+	width: 100%;
+}
+
+.challenge-detail-problem-responder-compile-error{
+	margin-top: 20px;
+	padding-top: 10px;
+}
+
+.challenge-detail-problem-responder-compile-error-header{
+	margin: 30px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.challenge-detail-problem-responder-compile-error-header>p{
+	background-color: #fff;
+    color: #d11534;
+    font-size: 26px;
+	padding: 15px 30px;
+	font-weight: 700;
+	width: 93%;
+}
+
+.challenge-detail-problem-responder-compile-error-detail{
+	margin-top: 30px;
+    padding: 20px;
+    border-bottom: 1px solid #d11534;
+    background-color: #fff;
+	box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+
+}
+
+.challenge-detail-problem-responder-compile-error-detail>div{
+	margin-bottom: 7px;
+    margin-top: 7px;
+    min-height: 120px;
+	border-bottom: 0;
+	width: 97%;
+    padding-right: 3%;
+    position: relative;
+}
+
+.challenge-detail-problem-responder-compile-error-detail>div>div{
+	display: flex;
+	flex-direction: column;
+}
+
+.challenge-detail-problem-responder-compile-error-detail .exit-status{
+	margin: 10px 0;
+}
+
+.challenge-detail-problem-responder-compile-error-detail p{
+	margin: 0 0 5px;
+    color: #576871;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.challenge-detail-problem-responder-compile-error-detail pre{
+	box-sizing: border-box;
+    max-height: 100%;
+	padding: 10px;
+    min-height: 80px;
+	background-color: #f3f7f7;
+	color: #576871;
+
+	white-space: pre-wrap;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-weight: 700;
+    line-height: 1.43;
+
+	width: 100%;
+}
+
+.challenge-detail-problem-responder-compile-error-detail pre code{
+	font-weight: 700;
+	font-family: "Source Code Pro";
+	font-size: 1em;
+}
+
+.challenge-detail-page-editor-footer{
+	/* align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap; */
+	width: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-top: 20px;
+	
+}
+
+.challenge-detail-page-editor-footer>.submit-challenge-code{
+	box-shadow: 0 4px 12px 0rgba(27,169,76,.5);
+	background-color: #1ba94c!important;
+	color: #fff;
+	font-weight: 700;
+	border-radius: 2px;
+    word-spacing: -2px;
+	font-size: 15px;
+	border: 1px solid #1ba94c;
+	padding-right: 20px;
+    padding-left: 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+    transition: all .5s ease;
+    transition-property: box-shadow,background,color,border;
+	position: relative;
+    display: inline-block;
+    height: 40px;
+    outline-width: 0;
+	font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+	float: right;
+}
+
+.challenge-detail-page-editor-footer>.submit-challenge-code:hover{
+	box-shadow: 0 3px 6px 0 rgba(27,169,76,.4);
+}
+
+
+.challenge-detail-page-editor-footer>.run-challenge-code{
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
+	margin-right: 10px;
+	background-color: #fff!important;
+	color: #0e141e;
+	font-weight: 700;
+	border-radius: 2px;
+    word-spacing: -2px;
+	font-size: 15px;
+	border: 1px solid #fff;
+	padding-right: 20px;
+    padding-left: 20px;
+	box-sizing: border-box;
+	cursor: pointer;
+    transition: all .5s ease;
+    transition-property: box-shadow,background,color,border;
+	position: relative;
+    display: inline-block;
+    height: 40px;
+    outline-width: 0;
+	font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+	float: right;
+}
+
+.challenge-detail-page-editor-footer>.run-challenge-code:hover{
+	box-shadow: 0 2px 6px 0 rgba(0,0,0,.05);
+}
+
+.challenge-detail-page-editor-footer>.submit-challenge-code>div{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+}
+
+.challenge-detail-page-editor-footer>.submit-challenge-code>div>span{
+	order: 1;
+}
+
+.challenge-detail-page-editor-custom-test{
+	align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+	padding: 5px;
+	padding-top: 0px;
+	
+}
+
+.challenge-detail-problem-responder-compile-error-header>div{
+	width: 100%;
+	display: flex;
+}
+
+.challenge-detail-problem-responder-compile-error-header>div>.compile-advice{
+	margin: 10px 0 20px;
+    color: #576871;
+    font-size: 14px;
+}
+
+.challenge-detail-problem-responder-compile-error-detail .runtime-error{
+	margin-top: 0px !important;
+}
+
+.challenge-detail-problem-responder-compile-error .submission-detail-test-case-info-wrapper.runtime-error{
+	padding: 20px;
+	width: 95%;
+}
+
+.challenge-detail-problem-responder-compile-error .submission-detail-test-case-info-input-body, .challenge-detail-problem-responder-compile-error .submission-detail-test-case-info-output-body{
+	max-width: 870px !important;
+	font-size: 1em;
+}
+
+.challenge-detail-page-editor-custom-test .checkbox{
+	padding: 10px 0;
+}
+
+.custom-test-checker>label{
+	display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+    font-weight: 400;
+    line-height: inherit;
+    cursor: pointer;
+}
+
+.custom-test-checker>label>.checkbox-wrap{
+	position: relative;
+    display: inline-flex;
+    align-items: center;
+    min-width: 18px;
+    min-height: 18px;
+    width: 1em;
+    height: 1em;
+    cursor: pointer;
+}
+
+.custom-test-checker>label>.checkbox-wrap>input{
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid transparent;
+    background: #e7eeef;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+	font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+}
+
+.custom-test-checker>label>.checkbox-wrap>span{
+	box-shadow: inset 0 1px 4px rgb(0 0 0 / 10%), 0 0 0 transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 0;
+    background: #e7eeef;
+    cursor: pointer;
+}
+
+.custom-test-checker.checked>label>.checkbox-wrap>span{
+	border: none !important;
+    background: #068932 !important;
+	color: #fff;
+	font-weight: bold;
+}
+
+.custom-test-checker>label>.checkbox-wrap>span>svg{
+	display: none;
+}
+
+.custom-test-checker.checked>label>.checkbox-wrap>span>svg{
+	display: block;
+    width: 70%;
+    height: 70%;
+	font-weight: bold !important;
+}
+.custom-test-checker.checked>label>.checkbox-wrap>span>svg>path{
+	stroke-width: 0.15em;
+	stroke: #fff;
+}
+
+.custom-test-checker>label>.label{
+	color: #738f93;
+    font-weight: 700;
+    font-size: 12px;
+	margin-left: 10px;
+    white-space: normal;
+}
+
+#custom-test-input-text{
+	display: none;
+    box-sizing: border-box;
+    margin: 20px 0;
+    outline: none;
+    border: 2px solid transparent;
+	background-color: #e7eeef;
+	color: #0e141e;
+	border-radius: 3px;
+	height: auto;
+    line-height: 1.5;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: "Source Code Pro";
+}
+
+#custom-test-input-text:focus{
+	box-shadow: 0 0 4px 0 rgb(46 200 102 / 40%);
+	border: 1px solid #b7c9cc;
+}
