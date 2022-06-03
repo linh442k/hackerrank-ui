@@ -1,0 +1,224 @@
+.admin-edit-testcase-upload-table-challenge-column, .admin-edit-testcase-upload-table-max-score-column, .admin-edit-testcase-upload-table-public-column{
+	width: 25%;
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+	text-align: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 1em;
+
+	max-height: 5rem;
+
+	/* overflow: hidden;
+	text-overflow: ellipsis;
+	word-wrap: wrap;
+	white-space: nowrap; */
+}
+
+.admin-edit-testcase-upload-table-challenge-column p{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.admin-edit-testcase-upload-table-challenge-column a{
+	color: #4691f6;
+    text-decoration: none;
+	transition: 0.3s color ease;
+	cursor: pointer;
+}
+
+.admin-edit-testcase-upload-table-challenge-column a:hover{
+	color: #0076b9;
+}
+
+.admin-edit-testcase-upload-table-max-score-column-content{
+	font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+}
+
+.admin-edit-testcase-upload-table-public-column i{
+	font-size: 20px !important;
+}
+
+.admin-edit-testcase-upload-table-public-column .sample-test{
+	color: #26B062;
+}
+
+.admin-edit-testcase-upload-table-public-column .not-sample-test{
+	color: #C0C7D0;
+}
+
+
+
+.admin-add-challenge-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9001; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.admin-add-challenge-modal-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background: #f8f9fa;
+    border-bottom: 1px solid #C2C7D0;
+	padding-bottom: 15px;
+}
+
+.admin-add-challenge-modal-header p{
+	padding-left: 15px;
+	font-weight: 600;
+}
+
+/* Modal Content/Box */
+.admin-add-challenge-modal-content {
+    background-color: #fefefe;
+    margin: 20% auto; /* 15% from the top and centered */
+    border: 1px solid #888;
+    width: 60%; /* Could be more or less, depending on screen size */
+
+    padding-top: 10px;
+    max-width: 450px;
+    min-width: 400px;
+    min-height: 150px;
+    max-height: 360px;
+
+    border-radius: 5px;
+}
+
+/* The Close Button */
+.admin-add-challenge-modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+.admin-add-challenge-modal-close:hover,
+.admin-add-challenge-modal-close:focus {
+    /* border: 1px solid gray; */
+    /* border-radius: 50%; */
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.admin-add-challenge-modal-info {
+    padding-top: 1rem;
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 50px;
+
+    margin-bottom: 1.5rem;
+	height: 100%;
+}
+
+.admin-add-challenge-modal-info>p{
+	color: #39424e;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.admin-add-challenge-choose-challenge{
+	width: 100%;
+	padding-top: 20px;
+}
+
+.admin-add-challenge-choose-challenge>label{
+	line-height: 40px;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    float: left;
+	width: 18.75%;
+	margin-left: 0;
+    padding-right: 7.5px;
+
+	box-sizing: border-box;
+	display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+
+	font-size: 14px;
+}
+
+.admin-add-challenge-choose-challenge>div{
+	box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+
+	width: 75%;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.admin-add-challenge-choose-challenge>div>select{
+	font-family: "Source Code Pro";
+
+	border: 1px solid #C2C7D0;
+    border-radius: 5px;
+    /* box-shadow: inset 0 1px 2px rgb(151 159 175 / 10%), inset 0 1px 15px rgb(151 159 175 / 5%); */
+    box-sizing: border-box;
+    color: #39424e;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 7px 10px;
+    transition: all 0.3s ease;
+	width: 100%;
+}
+
+.admin-add-challenge-choose-challenge>div>select:focus{
+	border-color: #77B5E5;
+    border-color: rgba(70,145,246,0.7);
+    box-shadow: 0 0 5px rgba(70,145,246,0.5),inset 0 1px 2px rgba(151,159,175,0.2),inset 0 1px 15px rgba(151,159,175,0.05);
+    outline: 0;
+}
+
+.admin-add-challenge-btn{
+	padding-top: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+.admin-add-challenge-btn>button{
+	box-shadow: 0 6px 16px 0 rgb(6 137 50 / 20%);
+    background-color: #068932!important;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 2px;
+    word-spacing: -2px;
+    font-size: 15px;
+    border: 1px solid #179342;
+    padding-right: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all .5s ease;
+    transition-property: box-shadow,background,color,border;
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    outline-width: 0;
+    font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+}
+
+.admin-add-challenge-btn>button:hover{
+	background-color: #13A853 !important;
+}

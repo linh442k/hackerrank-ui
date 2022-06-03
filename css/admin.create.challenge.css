@@ -88,7 +88,7 @@
 	font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
-.admin-create-challenge-page-inner-body p{
+.admin-create-challenge-page-inner-body>p{
 	font-family: "OpenSans";
 	margin-top: 10px;
     margin-bottom: 10px;

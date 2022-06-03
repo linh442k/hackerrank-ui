@@ -8,7 +8,17 @@
 
 	<link rel="stylesheet" href="../../css/admin.edit.css">
 
+	<link rel="stylesheet" href="../../css/admin.edit.challenge.css">
+
+	<link rel="stylesheet" href="../../css/admin.edit.contest.css">
+
 	<link rel="stylesheet" href="../../css/admin.edit.testcase.css">
+
+	<link rel="stylesheet" href="../../css/admin.create.challenge.css">
+
+	<link rel="stylesheet" href="../../css/admin.create.contest.css">
+
+	<link rel="stylesheet" href="../../css/admin.add.remove.challenge.css">
 
 	<link rel="stylesheet" href="../../css/style.css">
 
@@ -26,7 +36,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
-	<title>Edit Challenge TestCases</title>
+	<title>Add/Remove Challenges</title>
 </head>
 
 <body>
@@ -36,9 +46,9 @@
 			<div class="admin-edit-page-title">
 				<div>
 					<div class="admin-edit-page-title-content">
-						<span><a href="/">Manage Challenges</a></span>
+						<span><a href="/">Manage Contests</a></span>
 						<i class="fa fa-angle-right" aria-hidden="true"></i>
-						<span class="current-page"><a>Challenge Name</a></span>
+						<span class="current-page"><a>Edit Contest</a></span>
 					</div>
 				</div>
 			</div>
@@ -49,7 +59,7 @@
 					<header>
 						<div class="admin-edit-challenge-name">
 							<h1>
-								<div>Challenge Name</div>
+								<div>Contest Name</div>
 							</h1>
 						</div>
 						<div class="admin-edit-tabs">
@@ -61,7 +71,7 @@
 									<a href="/">Moderator</a>
 								</li>
 								<li class="admin-edit-tabs-item-active">
-									<a>Test Cases</a>
+									<a>Add/Remove Challenges</a>
 								</li>
 								<li>
 									<a href="/">ABC</a>
@@ -69,15 +79,14 @@
 							</ul>
 						</div>
 					</header>
-					<div class="admin-edit-testcase-container">
+					<div class="admin-create-challenge-page-inner-body" style="position: relative;">
 						<p class="admin-edit-testcase-text-helper">
-							Add test cases to judge the correctness of a user’s code. Refer to these
-							<a target="_blank" href="/">instructions</a>
-							to write a good test case.
+							Add challenges to your contest by selecting challenges from the challenge list or create and add your own challenges
+							<a target="_blank" href="/">here</a>.
 						</p>
 						<div class="admin-edit-testcase-upload-button-wrapper">
 							<div class="admin-edit-testcase-upload-button">
-								<button>+ Add Test Case</button>
+								<button id="admin-add-challenge-button">+ Add Challenge</button>
 							</div>
 						</div>
 						<div class="admin-edit-testcase-upload-table-wrapper">
@@ -85,85 +94,99 @@
 								<div class="admin-edit-testcase-upload-table-order-column">
 									<p>Order</p>
 								</div>
-								<div class="admin-edit-testcase-upload-table-input-column">
-									<p>Input</p>
+								<div class="admin-edit-testcase-upload-table-challenge-column">
+									<p>Challenge Name</p>
 								</div>
-								<div class="admin-edit-testcase-upload-table-output-column">
-									<p>Output</p>
+								<div class="admin-edit-testcase-upload-table-max-score-column">
+									<p>Max Score</p>
 								</div>
-								<div class="admin-edit-testcase-upload-table-sample-column">
-									<p>Sample</p>
+								<div class="admin-edit-testcase-upload-table-public-column">
+									<p>Public Challenge</p>
 								</div>
-								<div class="admin-edit-testcase-upload-table-point-column">
-									<p style="padding-right: 15px">Score</p>
-								</div>
-								<div class="admin-edit-testcase-upload-table-crud-column" style="width: 8%";>
+								<div class="admin-edit-testcase-upload-table-crud-column">
 									<p>Action</p>
 								</div>
 							</header>
 							<div class="admin-edit-testcase-upload-table-body">
 								<div class="admin-edit-testcase-upload-table-body-item">
 									<div class="admin-edit-testcase-upload-table-order-column">
-										<p>0</p>
+										<p>1</p>
 									</div>
-									<div class="admin-edit-testcase-upload-table-input-column">
-										<p>sample</p>
+									<div class="admin-edit-testcase-upload-table-challenge-column">
+										<p><a>National Disability Independence Day 2021 Coding Contest</a></p>
 									</div>
-									<div class="admin-edit-testcase-upload-table-output-column">
-										<p>sample</p>
-									</div>
-									<div class="admin-edit-testcase-upload-table-sample-column">
-										<p class="sample-test"><i class="fa fa-check" aria-hidden="true"></i></p>
-									</div>
-									<div class="admin-edit-testcase-upload-table-point-column">
+									<div class="admin-edit-testcase-upload-table-max-score-column">
 										<p class="admin-edit-testcase-upload-table-point-column-content">10.00</p>
+									</div>
+									<div class="admin-edit-testcase-upload-table-public-column">
+										<p class="sample-test"><i class="fa fa-check" aria-hidden="true"></i></p>
 									</div>
 									<div class="admin-edit-testcase-upload-table-crud-column">
 										<p>
-											<span class="admin-edit-testcase-upload-table-update"><i class="fa fa-pencil" aria-hidden="true"></i></span>
-											<span class="admin-edit-testcase-upload-table-delete"><i class="fa fa-trash" aria-hidden="true"></i></span>
+											<span class="admin-edit-contest-delete-challenge"><i class="fa fa-trash" aria-hidden="true"></i></span>
 										</p>
 									</div>
 								</div>
 								<div class="admin-edit-testcase-upload-table-body-item">
 									<div class="admin-edit-testcase-upload-table-order-column">
-										<p>1</p>
+										<p>2</p>
 									</div>
-									<div class="admin-edit-testcase-upload-table-input-column">
-										<p>sample</p>
-										<p>accasdassssssssssss</p>
-										<p>accasdasssssssssssssssssssssasdasdasdassssssss</p>
-										<p>sample</p>
-										<p>accasdasssssssssssssssssssssasdasdasdassssssss</p>
-										<p>accasdasssssssssssssssssssssasdasdasdassssssss</p>
+									<div class="admin-edit-testcase-upload-table-challenge-column">
+										<p><a>National Disability Independence Day 2021 Coding Contest</a></p>
 									</div>
-									<div class="admin-edit-testcase-upload-table-output-column">
-										<p>sample</p>
-										<p>accasdasssssssssssssssssssssasdasdasdassssssss</p>
-									</div>
-									<div class="admin-edit-testcase-upload-table-sample-column">
-										<p class="not-sample-test"><i class="fa fa-times" aria-hidden="true"></i></p>
-									</div>
-									<div class="admin-edit-testcase-upload-table-point-column">
+									<div class="admin-edit-testcase-upload-table-max-score-column">
 										<p class="admin-edit-testcase-upload-table-point-column-content">10.00</p>
+									</div>
+									<div class="admin-edit-testcase-upload-table-public-column">
+										<p class="not-sample-test"><i class="fa fa-times" aria-hidden="true"></i></p>
 									</div>
 									<div class="admin-edit-testcase-upload-table-crud-column">
 										<p>
-											<span class="admin-edit-testcase-upload-table-update"><i class="fa fa-pencil" aria-hidden="true"></i></span>
-											<span class="admin-edit-testcase-upload-table-delete"><i class="fa fa-trash" aria-hidden="true"></i></span>
+											<span class="admin-edit-contest-delete-challenge"><i class="fa fa-trash" aria-hidden="true"></i></span>
 										</p>
 									</div>
+
 								</div>
 							</div>
 						</div>
-					</div>
 				</section>
 			</div>
 		</div>
 		<?php require_once "../components/footer.php" ?>
+
+
+		<div id="admin-add-challenge-modal" class="admin-add-challenge-modal">
+			<div class="admin-add-challenge-modal-content">
+				<div class="admin-add-challenge-modal-header">
+					<p>Add Challenge</p>
+					<span class="admin-add-challenge-modal-close">&times;</span>
+				</div>
+				<div class="admin-add-challenge-modal-info">
+					<!-- <i class="fa fa-question-circle fa-3x" aria-hidden="true" style="color:grey;"></i> -->
+					<p>You can add a challenge from the challenge list!</p>
+					<!-- <div id="model-info-text">Test Model Info</div> -->
+					<div class="admin-add-challenge-choose-challenge">
+						<label for="admin-add-challenge-name">Name</label>
+						<div>
+							<select id="admin-add-challenge-name">
+								<option value="" disabled selected>Select from challenge list</option>
+								<option value="volvo">Challenge Name - Challenge Id</option>
+								<option value="saab">Saab</option>
+								<option value="fiat">Fiat</option>
+								<option value="audi">Audi</option>
+							</select>
+						</div>
+					</div>
+					<div class="admin-add-challenge-btn">
+						<button>Add Challenge</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
 	</div>
 	</div>
-	<script src="../../js/admin.edit.testcase.js"></script>
+	<script src="../../js/admin.add.remove.challenge.js"></script>
 </body>
 
 </html>
