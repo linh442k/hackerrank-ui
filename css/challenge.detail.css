@@ -58,341 +58,342 @@
     }
 }
 
-.challenge-detail-page-content-left-panel-problem-statement-content{
-	margin-bottom: 10px;
+.challenge-detail-page-content-left-panel-problem-statement-content {
+    margin-bottom: 10px;
 }
 
-.challenge-detail-page-content-left-panel-problem-statement-content p{
-	margin-top: 5px;
+.challenge-detail-page-content-left-panel-problem-statement-content p {
+    margin-top: 5px;
     margin-bottom: 0;
-	color: #576871;
+    color: #576871;
     font-size: 14px;
     line-height: 2;
 }
 
-.challenge-detail-page-content-left-panel-problem-statement-content strong{
-	color: #0e141e !important;
-	font-weight: bolder;
+.challenge-detail-page-content-left-panel-problem-statement-content strong {
+    color: #0e141e !important;
+    font-weight: bolder;
 }
 
-.challenge-detail-page-content-left-panel-problem-statement-content ul{
-	margin-left: 20px;
+.challenge-detail-page-content-left-panel-problem-statement-content ul {
+    margin-left: 20px;
 }
 
-.challenge-detail-page-content-left-panel-problem-statement-content li{
-	color: #576871;
+.challenge-detail-page-content-left-panel-problem-statement-content li {
+    color: #576871;
     font-size: 14px;
     line-height: 2;
 }
 
-.challenge-detail-page-content-left-panel-problem-statement-content em{
-	font-style: normal !important;
+.challenge-detail-page-content-left-panel-problem-statement-content em {
+    font-style: normal !important;
 }
 
-.challenge-detail-page-content-left-panel-problem-statement-content pre{
-	overflow-x: auto;
+.challenge-detail-page-content-left-panel-problem-statement-content pre {
+    overflow-x: auto;
     padding: 20px;
     border: none;
     background-color: #e7eeef;
     color: #0e141e;
     font-size: 15px;
     line-height: 20px;
-	margin-top: 12px;
-	border-radius: 2px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
+    margin-top: 12px;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
-.challenge-detail-page-content-left-panel-problem-statement-content pre span{
-	color: #0e141e;
+.challenge-detail-page-content-left-panel-problem-statement-content pre span {
+    color: #0e141e;
 }
 
-.challenge-detail-page-content-left-panel-problem-statement-content svg{
-	color: #0e141e;
+.challenge-detail-page-content-left-panel-problem-statement-content svg {
+    color: #0e141e;
 }
 
-.challenge-detail-page-content-right-panel{
-	box-sizing: border-box;
+.challenge-detail-page-content-right-panel {
+    box-sizing: border-box;
     margin: 0 0 30px 30px;
     width: 280px;
 }
 
-.challenge-detail-page-content-right-panel-detail{
-	margin-bottom: 20px;
-	font-size: 14px;
+.challenge-detail-page-content-right-panel-detail {
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
-.challenge-detail-page-content-right-panel-detail-item{
-	margin-bottom: 10px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
+.challenge-detail-page-content-right-panel-detail-item {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.challenge-detail-page-content-right-panel-detail-item-label{
-	margin-right: 5px;
-	display: inline;
-	color: #738f93;
+.challenge-detail-page-content-right-panel-detail-item-label {
+    margin-right: 5px;
+    display: inline;
+    color: #738f93;
 }
 
-.challenge-detail-page-content-right-panel-detail-author{
-	width: 140px;
+.challenge-detail-page-content-right-panel-detail-author {
+    width: 140px;
     text-align: right;
-	color: #097bbf;
+    color: #097bbf;
     cursor: pointer;
 }
 
-.challenge-detail-page-content-right-panel-detail-author:hover{
-	text-decoration: underline;
+.challenge-detail-page-content-right-panel-detail-author:hover {
+    text-decoration: underline;
 }
 
-.challenge-detail-hr{
-	border-top: 1px solid #e7eeef;
+.challenge-detail-hr {
+    border-top: 1px solid #e7eeef;
     border-bottom: 0;
     border-left: 0;
 }
 
-.challenge-detail-page-content-left-panel-problem{
-	box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+.challenge-detail-page-content-left-panel-problem {
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
 }
 
-.challenge-detail-page-content-left-panel-hidden-problem{
-	box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
+.challenge-detail-page-content-left-panel-hidden-problem {
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
     box-sizing: border-box;
     width: 100%;
     outline-offset: -1px;
     background-color: white;
     color: #0e141e;
-	margin-bottom: 40px;
-	min-height: 800px;
-	display: flex !important;
-	justify-content: center;
-	align-items: center;
+    margin-bottom: 40px;
+    min-height: 800px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 }
 
-.challenge-detail-page-content-left-panel-hidden-problem>div{
-	color: #576871;
+.challenge-detail-page-content-left-panel-hidden-problem > div {
+    color: #576871;
     font-size: 26px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.challenge-detail-page-content-left-panel-hidden-problem>div>svg{
-	margin-right: 1rem;
+.challenge-detail-page-content-left-panel-hidden-problem > div > svg {
+    margin-right: 1rem;
 }
 
-
-.challenge-detail-problem-responder-container{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	margin-top: 50px;
+.challenge-detail-problem-responder-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
-.challenge-detail-problem-responder-container>div{
-	width: 100%;
+.challenge-detail-problem-responder-container > div {
+    width: 100%;
 }
 
-.challenge-detail-problem-responder-compile-error{
-	margin-top: 20px;
-	padding-top: 10px;
+.challenge-detail-problem-responder-compile-error {
+    margin-top: 20px;
+    padding-top: 10px;
 }
 
-.challenge-detail-problem-responder-compile-error-header{
-	margin: 30px 0;
-	display: flex;
-	flex-direction: column;
+.challenge-detail-problem-responder-compile-error-header {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.challenge-detail-problem-responder-compile-error-header>p{
-	background-color: #fff;
+.challenge-detail-problem-responder-compile-error-header > p {
+    background-color: #fff;
     color: #d11534;
     font-size: 26px;
-	padding: 15px 30px;
-	font-weight: 700;
-	width: 93%;
+    padding: 15px 30px;
+    font-weight: 700;
+    width: 93%;
 }
 
-.challenge-detail-problem-responder-compile-error-detail{
-	margin-top: 30px;
+.challenge-detail-problem-responder-compile-error-detail {
+    margin-top: 30px;
     padding: 20px;
     border-bottom: 1px solid #d11534;
     background-color: #fff;
-	box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
-
+    box-shadow: 0 6px 16px 0 rgb(0 0 0 / 20%);
 }
 
-.challenge-detail-problem-responder-compile-error-detail>div{
-	margin-bottom: 7px;
+.challenge-detail-problem-responder-compile-error-detail > div {
+    margin-bottom: 7px;
     margin-top: 7px;
     min-height: 120px;
-	border-bottom: 0;
-	width: 97%;
+    border-bottom: 0;
+    width: 97%;
     padding-right: 3%;
     position: relative;
 }
 
-.challenge-detail-problem-responder-compile-error-detail>div>div{
-	display: flex;
-	flex-direction: column;
+.challenge-detail-problem-responder-compile-error-detail > div > div {
+    display: flex;
+    flex-direction: column;
 }
 
-.challenge-detail-problem-responder-compile-error-detail .exit-status{
-	margin: 10px 0;
+.challenge-detail-problem-responder-compile-error-detail .exit-status {
+    margin: 10px 0;
 }
 
-.challenge-detail-problem-responder-compile-error-detail p{
-	margin: 0 0 5px;
+.challenge-detail-problem-responder-compile-error-detail p {
+    margin: 0 0 5px;
     color: #576871;
     font-weight: 400;
     font-size: 14px;
 }
 
-.challenge-detail-problem-responder-compile-error-detail pre{
-	box-sizing: border-box;
+.challenge-detail-problem-responder-compile-error-detail pre {
+    box-sizing: border-box;
     max-height: 100%;
-	padding: 10px;
+    padding: 10px;
     min-height: 80px;
-	background-color: #f3f7f7;
-	color: #576871;
+    background-color: #f3f7f7;
+    color: #576871;
 
-	white-space: pre-wrap;
+    white-space: pre-wrap;
     word-wrap: break-word;
     word-break: break-all;
     font-weight: 700;
     line-height: 1.43;
 
-	width: 100%;
+    width: 100%;
 }
 
-.challenge-detail-problem-responder-compile-error-detail pre code{
-	font-weight: 700;
-	font-family: "Source Code Pro";
-	font-size: 1em;
+.challenge-detail-problem-responder-compile-error-detail pre code {
+    font-weight: 700;
+    font-family: "Source Code Pro";
+    font-size: 1em;
 }
 
-.challenge-detail-page-editor-footer{
-	/* align-items: flex-start;
+.challenge-detail-page-editor-footer {
+    /* align-items: flex-start;
     display: flex;
     flex-flow: row wrap; */
-	width: 100%;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-bottom: 5px;
-	padding-top: 20px;
-	
+    width: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 20px;
 }
 
-.challenge-detail-page-editor-footer>.submit-challenge-code{
-	box-shadow: 0 4px 12px 0rgba(27,169,76,.5);
-	background-color: #1ba94c!important;
-	color: #fff;
-	font-weight: 700;
-	border-radius: 2px;
+.challenge-detail-page-editor-footer > .submit-challenge-code {
+    box-shadow: 0 4px 12px 0rgba (27, 169, 76, 0.5);
+    background-color: #1ba94c !important;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 2px;
     word-spacing: -2px;
-	font-size: 15px;
-	border: 1px solid #1ba94c;
-	padding-right: 20px;
+    font-size: 15px;
+    border: 1px solid #1ba94c;
+    padding-right: 20px;
     padding-left: 20px;
-	box-sizing: border-box;
-	cursor: pointer;
-    transition: all .5s ease;
-    transition-property: box-shadow,background,color,border;
-	position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    transition-property: box-shadow, background, color, border;
+    position: relative;
     display: inline-block;
     height: 40px;
     outline-width: 0;
-	font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
-	float: right;
+    font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+    float: right;
 }
 
-.challenge-detail-page-editor-footer>.submit-challenge-code:hover{
-	box-shadow: 0 3px 6px 0 rgba(27,169,76,.4);
+.challenge-detail-page-editor-footer > .submit-challenge-code:hover {
+    box-shadow: 0 3px 6px 0 rgba(27, 169, 76, 0.4);
 }
 
-
-.challenge-detail-page-editor-footer>.run-challenge-code{
-	box-shadow: 0 3px 10px 0 rgba(0,0,0,.1);
-	margin-right: 10px;
-	background-color: #fff!important;
-	color: #0e141e;
-	font-weight: 700;
-	border-radius: 2px;
+.challenge-detail-page-editor-footer > .run-challenge-code {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    background-color: #fff !important;
+    color: #0e141e;
+    font-weight: 700;
+    border-radius: 2px;
     word-spacing: -2px;
-	font-size: 15px;
-	border: 1px solid #fff;
-	padding-right: 20px;
+    font-size: 15px;
+    border: 1px solid #fff;
+    padding-right: 20px;
     padding-left: 20px;
-	box-sizing: border-box;
-	cursor: pointer;
-    transition: all .5s ease;
-    transition-property: box-shadow,background,color,border;
-	position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    transition-property: box-shadow, background, color, border;
+    position: relative;
     display: inline-block;
     height: 40px;
     outline-width: 0;
-	font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
-	float: right;
+    font-family: "Source Code Pro", Arial, Helvetica, sans-serif;
+    float: right;
 }
 
-.challenge-detail-page-editor-footer>.run-challenge-code:hover{
-	box-shadow: 0 2px 6px 0 rgba(0,0,0,.05);
+.challenge-detail-page-editor-footer > .run-challenge-code:hover {
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
 }
 
-.challenge-detail-page-editor-footer>.submit-challenge-code>div{
-		display: flex;
-		align-items: center;
-		justify-content: center;
+.challenge-detail-page-editor-footer > .submit-challenge-code > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.challenge-detail-page-editor-footer>.submit-challenge-code>div>span{
-	order: 1;
+.challenge-detail-page-editor-footer > .submit-challenge-code > div > span {
+    order: 1;
 }
 
-.challenge-detail-page-editor-custom-test{
-	align-items: flex-start;
+.challenge-detail-page-editor-custom-test {
+    align-items: flex-start;
     display: flex;
     flex-flow: row wrap;
-	padding: 5px;
-	padding-top: 0px;
-	
+    padding: 5px;
+    padding-top: 0px;
 }
 
-.challenge-detail-problem-responder-compile-error-header>div{
-	width: 100%;
-	display: flex;
+.challenge-detail-problem-responder-compile-error-header > div {
+    width: 100%;
+    display: flex;
 }
 
-.challenge-detail-problem-responder-compile-error-header>div>.compile-advice{
-	margin: 10px 0 20px;
+.challenge-detail-problem-responder-compile-error-header
+    > div
+    > .compile-advice {
+    margin: 10px 0 20px;
     color: #576871;
     font-size: 14px;
 }
 
-.challenge-detail-problem-responder-compile-error-detail .runtime-error{
-	margin-top: 0px !important;
+.challenge-detail-problem-responder-compile-error-detail .runtime-error {
+    margin-top: 0px !important;
 }
 
-.challenge-detail-problem-responder-compile-error .submission-detail-test-case-info-wrapper.runtime-error{
-	padding: 20px;
-	width: 95%;
+.challenge-detail-problem-responder-compile-error
+    .submission-detail-test-case-info-wrapper.runtime-error {
+    padding: 20px;
+    width: 95%;
 }
 
-.challenge-detail-problem-responder-compile-error .submission-detail-test-case-info-input-body, .challenge-detail-problem-responder-compile-error .submission-detail-test-case-info-output-body{
-	max-width: 870px !important;
-	font-size: 1em;
+.challenge-detail-problem-responder-compile-error
+    .submission-detail-test-case-info-input-body,
+.challenge-detail-problem-responder-compile-error
+    .submission-detail-test-case-info-output-body {
+    max-width: 870px !important;
+    font-size: 1em;
 }
 
-.challenge-detail-page-editor-custom-test .checkbox{
-	padding: 10px 0;
+.challenge-detail-page-editor-custom-test .checkbox {
+    padding: 10px 0;
 }
 
-.custom-test-checker>label{
-	display: inline-flex;
+.custom-test-checker > label {
+    display: inline-flex;
     align-items: center;
     white-space: nowrap;
     font-weight: 400;
@@ -400,8 +401,8 @@
     cursor: pointer;
 }
 
-.custom-test-checker>label>.checkbox-wrap{
-	position: relative;
+.custom-test-checker > label > .checkbox-wrap {
+    position: relative;
     display: inline-flex;
     align-items: center;
     min-width: 18px;
@@ -411,7 +412,7 @@
     cursor: pointer;
 }
 
-.custom-test-checker>label>.checkbox-wrap>input{
+.custom-test-checker > label > .checkbox-wrap > input {
     box-sizing: border-box;
     outline: none;
     border: 1px solid transparent;
@@ -425,13 +426,13 @@
     height: 100%;
     opacity: 0;
     cursor: pointer;
-	font-family: sans-serif;
+    font-family: sans-serif;
     font-size: 100%;
     line-height: 1.15;
 }
 
-.custom-test-checker>label>.checkbox-wrap>span{
-	box-shadow: inset 0 1px 4px rgb(0 0 0 / 10%), 0 0 0 transparent;
+.custom-test-checker > label > .checkbox-wrap > span {
+    box-shadow: inset 0 1px 4px rgb(0 0 0 / 10%), 0 0 0 transparent;
     position: absolute;
     top: 0;
     left: 0;
@@ -446,54 +447,147 @@
     cursor: pointer;
 }
 
-.custom-test-checker.checked>label>.checkbox-wrap>span{
-	border: none !important;
+.custom-test-checker.checked > label > .checkbox-wrap > span {
+    border: none !important;
     background: #068932 !important;
-	color: #fff;
-	font-weight: bold;
+    color: #fff;
+    font-weight: bold;
 }
 
-.custom-test-checker>label>.checkbox-wrap>span>svg{
-	display: none;
+.custom-test-checker > label > .checkbox-wrap > span > svg {
+    display: none;
 }
 
-.custom-test-checker.checked>label>.checkbox-wrap>span>svg{
-	display: block;
+.custom-test-checker.checked > label > .checkbox-wrap > span > svg {
+    display: block;
     width: 70%;
     height: 70%;
-	font-weight: bold !important;
+    font-weight: bold !important;
 }
-.custom-test-checker.checked>label>.checkbox-wrap>span>svg>path{
-	stroke-width: 0.15em;
-	stroke: #fff;
+.custom-test-checker.checked > label > .checkbox-wrap > span > svg > path {
+    stroke-width: 0.15em;
+    stroke: #fff;
 }
 
-.custom-test-checker>label>.label{
-	color: #738f93;
+.custom-test-checker > label > .label {
+    color: #738f93;
     font-weight: 700;
     font-size: 12px;
-	margin-left: 10px;
+    margin-left: 10px;
     white-space: normal;
 }
 
-#custom-test-input-text{
-	display: none;
+#custom-test-input-text {
+    display: none;
     box-sizing: border-box;
     margin: 20px 0;
     outline: none;
     border: 2px solid transparent;
-	background-color: #e7eeef;
-	color: #0e141e;
-	border-radius: 3px;
-	height: auto;
+    background-color: #e7eeef;
+    color: #0e141e;
+    border-radius: 3px;
+    height: auto;
     line-height: 1.5;
-	padding: 10px;
-	font-size: 15px;
-	font-weight: 400;
-	font-family: "Source Code Pro";
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Source Code Pro";
 }
 
-#custom-test-input-text:focus{
-	box-shadow: 0 0 4px 0 rgb(46 200 102 / 40%);
-	border: 1px solid #b7c9cc;
+#custom-test-input-text:focus {
+    box-shadow: 0 0 4px 0 rgb(46 200 102 / 40%);
+    border: 1px solid #b7c9cc;
+}
+
+.challenge-editor-toolbar {
+    padding: 5px 0;
+    border-bottom: 1px solid #e7eeef;
+    background-color: #f3f7f7;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.challenge-editor-toolbar-language-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.challenge-editor-toolbar-language-wrapper {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.challenge-editor-toolbar-language-wrapper > label {
+    line-height: 40px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    float: left;
+    width: 18.75%;
+    margin-left: 0;
+    padding-right: 7.5px;
+
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+
+    font-size: 14px;
+}
+
+.challenge-editor-toolbar-language-wrapper > div {
+    box-sizing: border-box;
+    float: left;
+    margin-left: 0;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+
+    width: 75%;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.challenge-editor-toolbar-language-wrapper > div > select {
+    font-family: "Source Code Pro";
+
+    border: 1px solid #c2c7d0;
+    border-radius: 5px;
+    /* box-shadow: inset 0 1px 2px rgb(151 159 175 / 10%), inset 0 1px 15px rgb(151 159 175 / 5%); */
+    box-sizing: border-box;
+    color: #39424e;
+    display: inline-block;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 7px 10px;
+    transition: all 0.3s ease;
+    min-width: 200px;
+    width: 100%;
+}
+
+.challenge-editor-toolbar-language-wrapper > div > select:focus {
+    border-color: #77b5e5;
+    border-color: rgba(70, 145, 246, 0.7);
+    box-shadow: 0 0 5px rgba(70, 145, 246, 0.5),
+        inset 0 1px 2px rgba(151, 159, 175, 0.2),
+        inset 0 1px 15px rgba(151, 159, 175, 0.05);
+    outline: 0;
+}
+
+#challenge-code-editor {
+	padding-bottom: 600px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.challenge-code-editor-container {
+    width: 100%;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }

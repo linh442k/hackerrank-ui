@@ -93,7 +93,8 @@
 												</span>
 											</div>
 										</div>
-										<div class="submission-detail-left-panel-header-editor-code-editor">code editor</div>
+										<div class="submission-detail-left-panel-header-editor-code-editor" id="submission-code-editor">$fptr = fopen(getenv(&quot;OUTPUT_PATH&quot;), &quot;w&quot;);
+$a_temp = rtrim(fgets(STDIN));</div>
 									</div>
 								</div>
 							</section>
@@ -374,6 +375,13 @@
 		</div>
 	</div>
 	<?php require_once "../components/footer.php" ?>
+	<script src="../../js/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/keybinding-vscode.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/mode-javascript.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/mode-python.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/theme-crimson_editor.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/theme-monokai.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
 	<script src="../../js/submission.detail.js"></script>
 </body>
 

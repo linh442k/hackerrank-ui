@@ -626,7 +626,33 @@
 					</section>
 					<section class="challenge-detail-page-content-left-panel-problem">
 						<!-- <div style="min-height: 90px;"></div> -->
-						<?php require_once "../components/editor.php" ?>
+						<div class="challenge-code-editor-container">
+							<div class="challenge-editor-toolbar">
+								<div></div>
+								<div class="challenge-editor-toolbar-language-wrapper">
+									<label for="challenge-editor-toolbar-language">Name</label>
+									<div>
+										<select id="challenge-editor-toolbar-language">
+											<!-- <option value="" disabled selected>Select from challenge list</option> -->
+											<option value="volvo">Python</option>
+											<option value="saab">Saab</option>
+											<option value="fiat">Fiat</option>
+											<option value="audi">Audi</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div id="challenge-code-editor">
+
+
+
+
+
+
+
+
+</div>
+						</div>
 					</section>
 					<section>
 						<div class="challenge-detail-page-editor-footer">
@@ -1041,6 +1067,19 @@
 																		3 6 10
 																	</div>
 																</div>
+																
+																<div class="submission-detail-test-case-info-output">
+																	<div class="submission-detail-test-case-info-output-header">
+																		Error (stderr)
+																	</div>
+																	<div class="submission-detail-test-case-info-output-body">
+																	Traceback (most recent call last):<br>
+  File "Solution.py", line 31, in &lt;module&gt;<br>
+    fptr.write(' '.join(map(str, result)))<br>
+TypeError: argument 2 to map() must support iteration <br>     ^											
+																	</div>
+																</div>
+
 																<div class="submission-detail-test-case-info-output">
 																	<div class="submission-detail-test-case-info-output-header">
 																		Your Output (stdout)
@@ -1066,6 +1105,16 @@
 																		<br>
 																		3 6 10
 																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
+																		<br>
+																		3 6 10
+																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+																		<br>
+																		3 6 10
 																		<br>
 																		3 6 10
 																		5 6 7wer werwerwer werwerewrwerweeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
@@ -1122,6 +1171,13 @@
 	</div>
 	<?php require_once "../components/footer.php" ?>
 	</div>
+	<script src="../../js/ace-builds/src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/keybinding-vscode.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/mode-javascript.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/mode-python.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/theme-crimson_editor.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/theme-monokai.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../../js/ace-builds/src-noconflict/ext-language_tools.js" type="text/javascript" charset="utf-8"></script>
 	<script src="../../js/challenge.detail.js"></script>
 </body>
 
