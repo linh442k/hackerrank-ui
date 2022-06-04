@@ -99,18 +99,19 @@
 
 /* The Close Button */
 .admin-add-challenge-modal-close {
-    color: #aaa;
+    color: #999;
     float: right;
     font-size: 24px;
     font-weight: bold;
     padding-right: 1rem;
+	transition: 0.3s color ease;
 }
 
 .admin-add-challenge-modal-close:hover,
 .admin-add-challenge-modal-close:focus {
     /* border: 1px solid gray; */
     /* border-radius: 50%; */
-    color: black;
+    color: #666;
     text-decoration: none;
     cursor: pointer;
 }
